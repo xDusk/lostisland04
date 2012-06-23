@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>Project17</ProjectName>
+    <ProjectGuid>{5EA7B496-42D5-4FCE-967B-16725C855F5C}</ProjectGuid>
+    <RootNamespace>LostIsland</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\Debug17\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\objDebug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\bin17\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\obj\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>include;E:\ogre 1.8.0\ogre\OgreMain\include;E:\ogre 1.8.0\ogre\OgreMain\include\WIN32;E\ogre 1.8.0\ogre\include;E:\ogre 1.8.0\ogre\Dependencies\include;E:\ogre 1.8.0\ogre\Components\Paging\include;E:\ogre 1.8.0\ogre\Components\Terrain\include;E:\ogre 1.8.0\ogre\Components\RTShaderSystem\include;E:\ogre 1.8.0\plugins\SkyX-v0.1\SkyX\SkyX;E:\ogre 1.8.0\plugins\ogre-paged\include;E:\ogre 1.8.0\plugins\Hydrax-v0.5.1\Hydrax\src\Hydrax;E:\PhysXSDK\SDKs\PhysXLoader\include;E:\PhysXSDK\SDKs\Cooking\include;E:\PhysXSDK\SDKs\Foundation\include;E:\PhysXSDK\SDKs\NxCharacter\include;E:\PhysXSDK\SDKs\Physics\include;E:\PhysxSDK\TrainingPrograms\Programs\Shared_Source;E:\PhysxSDK\Tools\NxuStream2;E:\dxsdk\Include;E:\ogre 1.8.0\ogre\RenderSystems\Direct3D9\include;E:\ogre 1.8.0\plugins\mygui sub\MyGUIEngine\include;E:\ogre 1.8.0\plugins\mygui sub\Platforms\Ogre\OgrePlatform\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>OgreMain.lib;OIS.lib;PhysXLoader.lib;PhysXCooking.lib;NxCharacter.lib;Hydrax.lib;PagedGeometry.lib;SkyX.lib;OgreRTShaderSystem.lib;OgreTerrain.lib;OgrePaging.lib;d3dx9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:\ogre 1.8.0\ogre\Dependencies\lib\Release;E:\ogre 1.8.0\ogre\lib\Release;E:\PhysXSDK\SDKs\lib\Win32;E:\ogre 1.8.0\plugins\ogre-paged\lib;E:\ogre 1.8.0\plugins\SkyX-v0.1\SkyX\SkyX\bin;E:\ogre 1.8.0\plugins\Hydrax-v0.5.1\Hydrax\bin\release;E:\dxsdk\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>$(PHYSX_DIR)\SDKs\Physics\include\;$(PHYSX_DIR)\SDKs\Foundation\include\;$(PHYSX_DIR)\SDKs\Cooking\include\;$(PHYSX_DIR)\SDKs\PhysXLoader\include\;$(PHYSX_DIR)\SDKs\NxCharacter\include\;$(OGRE_HOME)\Include\;$(OGRE_HOME)\Include\OGRE;$(OGRE_HOME)\Include\OIS;include;include\fire;..\Deps\PG;..\Deps;..\Deps\HydraX;..\Deps\SkyX;..\Deps\NXU;$(OGRE_HOME)\Include\OGRE\Terrain;$(OGRE_HOME)\Include\OGRE\Paging;$(OGRE_HOME)\Include\OGRE\RenderSystems\Direct3D9;$(DXSDK_DIR)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USE_MATH_DEFINES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <OpenMPSupport>true</OpenMPSupport>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/LTCG %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>OgreMain.lib;OIS.lib;PhysXLoader.lib;PhysXCooking.lib;NxCharacter.lib;PagedGeometry.lib;OgreRTShaderSystem.lib;OgreTerrain.lib;OgrePaging.lib;winmm.lib;d3dx9.lib;d3d9.lib;RocketControls.lib;RocketCore.lib;RocketDebugger.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\Deps;$(OGRE_HOME)\lib\RelWithDebInfo;$(OGRE_HOME)\lib\RelWithDebInfo\opt;$(PHYSX_DIR)\SDKs\lib\win32;$(DXSDK_DIR)\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <EnableUAC>false</EnableUAC>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Manifest>
+      <GenerateCatalogFiles>false</GenerateCatalogFiles>
+    </Manifest>
+    <PostBuildEvent>
+      <Message>Good Luck!</Message>
+      <Command>del$(IntDir)*.res</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Data">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Xml">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Deps\HydraX\CfgFileManager.cpp" />
+    <ClCompile Include="..\Deps\HydraX\DecalsManager.cpp" />
+    <ClCompile Include="..\Deps\HydraX\Enums.cpp" />
+    <ClCompile Include="..\Deps\HydraX\GodRaysManager.cpp" />
+    <ClCompile Include="..\Deps\HydraX\GPUNormalMapManager.cpp" />
+    <ClCompile Include="..\Deps\HydraX\Help.cpp" />
+    <ClCompile Include="..\Deps\HydraX\Hydrax.cpp" />
+    <ClCompile Include="..\Deps\HydraX\Image.cpp" />
+    <ClCompile Include="..\Deps\HydraX\MaterialManager.cpp" />
+    <ClCompile Include="..\Deps\HydraX\Mesh.cpp" />
+    <ClCompile Include="..\Deps\HydraX\Modules\Module.cpp" />
+    <ClCompile Include="..\Deps\HydraX\Modules\ProjectedGrid\ProjectedGrid.cpp" />
+    <ClCompile Include="..\Deps\HydraX\Modules\RadialGrid\RadialGrid.cpp" />
+    <ClCompile Include="..\Deps\HydraX\Modules\SimpleGrid\SimpleGrid.cpp" />
+    <ClCompile Include="..\Deps\HydraX\Noise\FFT\FFT.cpp" />
+    <ClCompile Include="..\Deps\HydraX\Noise\Noise.cpp" />
+    <ClCompile Include="..\Deps\HydraX\Noise\Perlin\Perlin.cpp" />
+    <ClCompile Include="..\Deps\HydraX\Prerequisites.cpp" />
+    <ClCompile Include="..\Deps\HydraX\RttManager.cpp" />
+    <ClCompile Include="..\Deps\HydraX\TextureManager.cpp" />
+    <ClCompile Include="..\Deps\NXU\NXU_Asc2Bin.cpp" />
+    <ClCompile Include="..\Deps\NXU\NXU_ColladaExport.cpp" />
+    <ClCompile Include="..\Deps\NXU\NXU_ColladaImport.cpp" />
+    <ClCompile Include="..\Deps\NXU\NXU_cooking.cpp" />
+    <ClCompile Include="..\Deps\NXU\NXU_customcopy.cpp" />
+    <ClCompile Include="..\Deps\NXU\NXU_File.cpp" />
+    <ClCompile Include="..\Deps\NXU\NXU_Geometry.cpp" />
+    <ClCompile Include="..\Deps\NXU\NXU_GraphicsMesh.cpp" />
+    <ClCompile Include="..\Deps\NXU\NXU_helper.cpp" />
+    <ClCompile Include="..\Deps\NXU\NXU_hull.cpp" />
+    <ClCompile Include="..\Deps\NXU\NXU_PhysicsExport.cpp" />
+    <ClCompile Include="..\Deps\NXU\NXU_PhysicsInstantiator.cpp" />
+    <ClCompile Include="..\Deps\NXU\NXU_ScaledCopy.cpp" />
+    <ClCompile Include="..\Deps\NXU\NXU_schema.cpp" />
+    <ClCompile Include="..\Deps\NXU\NXU_SchemaStream.cpp" />
+    <ClCompile Include="..\Deps\NXU\NXU_Streaming.cpp" />
+    <ClCompile Include="..\Deps\NXU\NXU_string.cpp" />
+    <ClCompile Include="..\Deps\NXU\NXU_tinystr.cpp" />
+    <ClCompile Include="..\Deps\NXU\NXU_tinyxml.cpp" />
+    <ClCompile Include="..\Deps\NXU\NXU_tinyxmlerror.cpp" />
+    <ClCompile Include="..\Deps\NXU\NXU_tinyxmlparser.cpp" />
+    <ClCompile Include="..\Deps\SkyX\AtmosphereManager.cpp" />
+    <ClCompile Include="..\Deps\SkyX\CloudsManager.cpp" />
+    <ClCompile Include="..\Deps\SkyX\ColorGradient.cpp" />
+    <ClCompile Include="..\Deps\SkyX\GPUManager.cpp" />
+    <ClCompile Include="..\Deps\SkyX\MeshManager.cpp" />
+    <ClCompile Include="..\Deps\SkyX\MoonManager.cpp" />
+    <ClCompile Include="..\Deps\SkyX\Prerequisites.cpp" />
+    <ClCompile Include="..\Deps\SkyX\SkyX.cpp" />
+    <ClCompile Include="..\Deps\SkyX\VCloudsManager.cpp" />
+    <ClCompile Include="..\Deps\SkyX\VClouds\DataManager.cpp" />
+    <ClCompile Include="..\Deps\SkyX\VClouds\Ellipsoid.cpp" />
+    <ClCompile Include="..\Deps\SkyX\VClouds\FastFakeRandom.cpp" />
+    <ClCompile Include="..\Deps\SkyX\VClouds\GeometryBlock.cpp" />
+    <ClCompile Include="..\Deps\SkyX\VClouds\GeometryManager.cpp" />
+    <ClCompile Include="..\Deps\SkyX\VClouds\VClouds.cpp" />
+    <ClCompile Include="src\ActionManager.cpp" />
+    <ClCompile Include="src\debugOut.cpp" />
+    <ClCompile Include="src\fire\OgreAreaEmitter.cpp" />
+    <ClCompile Include="src\fire\OgreBoxEmitter.cpp" />
+    <ClCompile Include="src\fire\OgreShaderParticleRenderer.cpp" />
+    <ClCompile Include="src\GuiManager.cpp" />
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\myTarrainMaterialGenerator.cpp" />
+    <ClCompile Include="src\PhysX\MyCharacterController.cpp" />
+    <ClCompile Include="src\PhysX\UserAllocator.cpp" />
+    <ClCompile Include="src\base\GameManager.cpp" />
+    <ClCompile Include="src\base\GameState.cpp" />
+    <ClCompile Include="src\base\InputManager.cpp" />
+    <ClCompile Include="src\base\IntroState.cpp" />
+    <ClCompile Include="src\base\PauseState.cpp" />
+    <ClCompile Include="src\base\PlayState.cpp" />
+    <ClCompile Include="src\PGManager.cpp" />
+    <ClCompile Include="src\RenderInterfaceOgre3D.cpp" />
+    <ClCompile Include="src\SystemInterfaceOgre3D.cpp" />
+    <ClCompile Include="src\xml\tinystr.cpp" />
+    <ClCompile Include="src\xml\tinyxml.cpp" />
+    <ClCompile Include="src\xml\tinyxmlerror.cpp" />
+    <ClCompile Include="src\xml\tinyxmlparser.cpp" />
+    <ClCompile Include="src\EngineDeferredShading.cpp" />
+    <ClCompile Include="src\AmbientLight.cpp" />
+    <ClCompile Include="src\DeferredLightCP.cpp" />
+    <ClCompile Include="src\DeferredShading.cpp" />
+    <ClCompile Include="src\DLight.cpp" />
+    <ClCompile Include="src\GBufferMaterialGenerator.cpp" />
+    <ClCompile Include="src\GBufferSchemeHandler.cpp" />
+    <ClCompile Include="src\GeomUtils.cpp" />
+    <ClCompile Include="src\LightMaterialGenerator.cpp" />
+    <ClCompile Include="src\MaterialGenerator.cpp" />
+    <ClCompile Include="src\SSAOLogic.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\ogre 1.8.0\ogre\Samples\DeferredShading\src\NullSchemeHandler.h" />
+    <ClInclude Include="..\Deps\HydraX\CfgFileManager.h" />
+    <ClInclude Include="..\Deps\HydraX\DecalsManager.h" />
+    <ClInclude Include="..\Deps\HydraX\Enums.h" />
+    <ClInclude Include="..\Deps\HydraX\GodRaysManager.h" />
+    <ClInclude Include="..\Deps\HydraX\GPUNormalMapManager.h" />
+    <ClInclude Include="..\Deps\HydraX\Help.h" />
+    <ClInclude Include="..\Deps\HydraX\Hydrax.h" />
+    <ClInclude Include="..\Deps\HydraX\Image.h" />
+    <ClInclude Include="..\Deps\HydraX\MaterialManager.h" />
+    <ClInclude Include="..\Deps\HydraX\Mesh.h" />
+    <ClInclude Include="..\Deps\HydraX\Modules\Module.h" />
+    <ClInclude Include="..\Deps\HydraX\Modules\ProjectedGrid\ProjectedGrid.h" />
+    <ClInclude Include="..\Deps\HydraX\Modules\RadialGrid\RadialGrid.h" />
+    <ClInclude Include="..\Deps\HydraX\Modules\SimpleGrid\SimpleGrid.h" />
+    <ClInclude Include="..\Deps\HydraX\Noise\FFT\FFT.h" />
+    <ClInclude Include="..\Deps\HydraX\Noise\Noise.h" />
+    <ClInclude Include="..\Deps\HydraX\Noise\Perlin\Perlin.h" />
+    <ClInclude Include="..\Deps\HydraX\Prerequisites.h" />
+    <ClInclude Include="..\Deps\HydraX\RttManager.h" />
+    <ClInclude Include="..\Deps\HydraX\TextureManager.h" />
+    <ClInclude Include="..\Deps\NXU\NXU_Asc2Bin.h" />
+    <ClInclude Include="..\Deps\NXU\NXU_ColladaExport.h" />
+    <ClInclude Include="..\Deps\NXU\NXU_ColladaImport.h" />
+    <ClInclude Include="..\Deps\NXU\NXU_cooking.h" />
+    <ClInclude Include="..\Deps\NXU\NXU_customcopy.h" />
+    <ClInclude Include="..\Deps\NXU\NXU_File.h" />
+    <ClInclude Include="..\Deps\NXU\NXU_Geometry.h" />
+    <ClInclude Include="..\Deps\NXU\NXU_GraphicsMesh.h" />
+    <ClInclude Include="..\Deps\NXU\NXU_helper.h" />
+    <ClInclude Include="..\Deps\NXU\NXU_hull.h" />
+    <ClInclude Include="..\Deps\NXU\NXU_PhysicsExport.h" />
+    <ClInclude Include="..\Deps\NXU\NXU_PhysicsInstantiator.h" />
+    <ClInclude Include="..\Deps\NXU\NXU_ScaledCopy.h" />
+    <ClInclude Include="..\Deps\NXU\NXU_schema.h" />
+    <ClInclude Include="..\Deps\NXU\NXU_SchemaStream.h" />
+    <ClInclude Include="..\Deps\NXU\NXU_SchemaTypes.h" />
+    <ClInclude Include="..\Deps\NXU\NXU_Streaming.h" />
+    <ClInclude Include="..\Deps\NXU\NXU_string.h" />
+    <ClInclude Include="..\Deps\NXU\NXU_tinystr.h" />
+    <ClInclude Include="..\Deps\NXU\NXU_tinyxml.h" />
+    <ClInclude Include="..\Deps\SkyX\AtmosphereManager.h" />
+    <ClInclude Include="..\Deps\SkyX\CloudsManager.h" />
+    <ClInclude Include="..\Deps\SkyX\ColorGradient.h" />
+    <ClInclude Include="..\Deps\SkyX\GPUManager.h" />
+    <ClInclude Include="..\Deps\SkyX\MeshManager.h" />
+    <ClInclude Include="..\Deps\SkyX\MoonManager.h" />
+    <ClInclude Include="..\Deps\SkyX\Prerequisites.h" />
+    <ClInclude Include="..\Deps\SkyX\SkyX.h" />
+    <ClInclude Include="..\Deps\SkyX\VCloudsManager.h" />
+    <ClInclude Include="..\Deps\SkyX\VClouds\DataManager.h" />
+    <ClInclude Include="..\Deps\SkyX\VClouds\Ellipsoid.h" />
+    <ClInclude Include="..\Deps\SkyX\VClouds\FastFakeRandom.h" />
+    <ClInclude Include="..\Deps\SkyX\VClouds\GeometryBlock.h" />
+    <ClInclude Include="..\Deps\SkyX\VClouds\GeometryManager.h" />
+    <ClInclude Include="..\Deps\SkyX\VClouds\VClouds.h" />
+    <ClInclude Include="include\ActionManager.h" />
+    <ClInclude Include="include\Creature.h" />
+    <ClInclude Include="include\base\SharedData.h" />
+    <ClInclude Include="include\configAnims.h" />
+    <ClInclude Include="include\debugOut.h" />
+    <ClInclude Include="include\ExtendedCamera.h" />
+    <ClInclude Include="include\fire\OgreAreaEmitter.h" />
+    <ClInclude Include="include\fire\OgreBoxEmitter.h" />
+    <ClInclude Include="include\fire\OgreBoxEmitterFactory.h" />
+    <ClInclude Include="include\fire\OgreParticleCustomParam.h" />
+    <ClInclude Include="include\fire\OgreShaderParticleRenderer.h" />
+    <ClInclude Include="include\GuiManager.h" />
+    <ClInclude Include="include\GuiInventory.h" />
+    <ClInclude Include="include\myTerrainMaterialGenerator.h" />
+    <ClInclude Include="include\PhysxManager.h" />
+    <ClInclude Include="include\ProgressBar.h" />
+    <ClInclude Include="include\quest.h" />
+    <ClInclude Include="include\RenderInterfaceOgre3D.h" />
+    <ClInclude Include="include\RenderToTexture.h" />
+    <ClInclude Include="include\SystemInterfaceOgre3D.h" />
+    <ClInclude Include="include\WoodyListener.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="include\SceneLoader.h" />
+    <ClInclude Include="include\HydraxManager.h" />
+    <ClInclude Include="include\PGManager.h" />
+    <ClInclude Include="include\SkyManager.h" />
+    <ClInclude Include="include\PhysX\MyCharacterController.h" />
+    <ClInclude Include="include\Ragdoll.h" />
+    <ClInclude Include="include\PhysX\UserAllocator.h" />
+    <ClInclude Include="include\base\GameManager.h" />
+    <ClInclude Include="include\base\GameState.h" />
+    <ClInclude Include="include\base\InputManager.h" />
+    <ClInclude Include="include\base\IntroState.h" />
+    <ClInclude Include="include\base\PauseState.h" />
+    <ClInclude Include="include\base\PlayState.h" />
+    <ClInclude Include="include\AiCharacter.h" />
+    <ClInclude Include="include\arrow.h" />
+    <ClInclude Include="include\BaseObj.h" />
+    <ClInclude Include="include\Items.h" />
+    <ClInclude Include="include\Player.h" />
+    <ClInclude Include="include\TerrainManager.h" />
+    <ClInclude Include="include\xml\tinystr.h" />
+    <ClInclude Include="include\xml\tinyxml.h" />
+    <ClInclude Include="include\EngineDeferredShading.h" />
+    <ClInclude Include="include\AmbientLight.h" />
+    <ClInclude Include="include\DeferredLightCP.h" />
+    <ClInclude Include="include\DeferredShading.h" />
+    <ClInclude Include="include\DLight.h" />
+    <ClInclude Include="include\GBufferMaterialGenerator.h" />
+    <ClInclude Include="..\..\..\..\ogre 1.8.0\ogre\Samples\DeferredShading\include\GBufferSchemeHandler.h" />
+    <ClInclude Include="include\LightMaterialGenerator.h" />
+    <ClInclude Include="include\MaterialGenerator.h" />
+    <ClInclude Include="..\..\..\..\ogre 1.8.0\ogre\Samples\DeferredShading\include\NullSchemeHandler.h" />
+    <ClInclude Include="include\SSAOLogic.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Lost Island.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Deps\NXU\TheNxuStreamFAQ.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="ogre.ico" />
+    <None Include="ogrelogo.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties StartDate="20090329" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

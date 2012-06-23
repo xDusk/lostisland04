@@ -1,0 +1,1460 @@
+23:44:54: Creating resource group General
+23:44:54: Creating resource group Internal
+23:44:54: Creating resource group Autodetect
+23:44:54: SceneManagerFactory for type 'DefaultSceneManager' registered.
+23:44:54: Registering ResourceManager for type Material
+23:44:54: Registering ResourceManager for type Mesh
+23:44:54: Registering ResourceManager for type Skeleton
+23:44:54: MovableObjectFactory for type 'ParticleSystem' registered.
+23:44:54: OverlayElementFactory for type Panel registered.
+23:44:54: OverlayElementFactory for type BorderPanel registered.
+23:44:54: OverlayElementFactory for type TextArea registered.
+23:44:54: Registering ResourceManager for type Font
+23:44:54: ArchiveFactory for archive type FileSystem registered.
+23:44:54: ArchiveFactory for archive type Zip registered.
+23:44:54: ArchiveFactory for archive type EmbeddedZip registered.
+23:44:54: DDS codec registering
+23:44:54: FreeImage version: 3.13.1
+23:44:54: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+23:44:54: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2,pfm,pct,pict,pic,bay,bmq,cr2,crw,cs1,dc2,dcr,dng,erf,fff,hdr,k25,kdc,mdc,mos,mrw,nef,orf,pef,pxn,raf,raw,rdc,sr2,srf,arw,3fr,cine,ia,kc2,mef,nrw,qtk,rw2,sti,drf,dsc,ptx,cap,iiq,rwz
+23:44:54: Registering ResourceManager for type HighLevelGpuProgram
+23:44:54: Registering ResourceManager for type Compositor
+23:44:54: MovableObjectFactory for type 'Entity' registered.
+23:44:54: MovableObjectFactory for type 'Light' registered.
+23:44:54: MovableObjectFactory for type 'BillboardSet' registered.
+23:44:54: MovableObjectFactory for type 'ManualObject' registered.
+23:44:54: MovableObjectFactory for type 'BillboardChain' registered.
+23:44:54: MovableObjectFactory for type 'RibbonTrail' registered.
+23:44:54: Loading library .\Plugin_ParticleFX
+23:44:54: Installing plugin: ParticleFX
+23:44:54: Particle Emitter Type 'Point' registered
+23:44:54: Particle Emitter Type 'Box' registered
+23:44:54: Particle Emitter Type 'Ellipsoid' registered
+23:44:54: Particle Emitter Type 'Cylinder' registered
+23:44:54: Particle Emitter Type 'Ring' registered
+23:44:54: Particle Emitter Type 'HollowEllipsoid' registered
+23:44:54: Particle Affector Type 'LinearForce' registered
+23:44:54: Particle Affector Type 'ColourFader' registered
+23:44:54: Particle Affector Type 'ColourFader2' registered
+23:44:54: Particle Affector Type 'ColourImage' registered
+23:44:54: Particle Affector Type 'ColourInterpolator' registered
+23:44:54: Particle Affector Type 'Scaler' registered
+23:44:54: Particle Affector Type 'Rotator' registered
+23:44:54: Particle Affector Type 'DirectionRandomiser' registered
+23:44:54: Particle Affector Type 'DeflectorPlane' registered
+23:44:54: Plugin successfully installed
+23:44:54: Loading library .\RenderSystem_Direct3D9
+23:44:54: Installing plugin: D3D9 RenderSystem
+23:44:54: D3D9 : Direct3D9 Rendering Subsystem created.
+23:44:54: D3D9: Driver Detection Starts
+23:44:54: D3D9: Driver Detection Ends
+23:44:54: Plugin successfully installed
+23:44:54: Loading library .\RenderSystem_GL
+23:44:54: Installing plugin: GL RenderSystem
+23:44:54: OpenGL Rendering Subsystem created.
+23:44:54: Plugin successfully installed
+23:44:54: Loading library .\Plugin_CgProgramManager
+23:44:54: Installing plugin: Cg Program Manager
+23:44:54: Plugin successfully installed
+23:44:54: *-*-* OGRE Initialising
+23:44:54: *-*-* Version 1.8.0unstable (Byatis)
+23:44:54: Creating resource group Bootstrap
+23:44:54: Added resource location '..\media\.\OgreCore.zip' of type 'Zip' to resource group 'Bootstrap'
+23:44:54: Added resource location '..\media\.\' of type 'FileSystem' to resource group 'General'
+23:44:54: Added resource location '..\media\.\fonts' of type 'FileSystem' to resource group 'General'
+23:44:54: Added resource location '..\media\.\materials/programs' of type 'FileSystem' to resource group 'General'
+23:44:54: Added resource location '..\media\.\materials/scripts' of type 'FileSystem' to resource group 'General'
+23:44:54: Added resource location '..\media\.\overlays' of type 'FileSystem' to resource group 'General'
+23:44:54: Added resource location '..\media\.\particle' of type 'FileSystem' to resource group 'General'
+23:44:54: Added resource location '..\media\.\gui' of type 'FileSystem' to resource group 'General'
+23:44:54: Added resource location '..\media\.\DeferredShadingMedia' of type 'FileSystem' to resource group 'General'
+23:44:54: Added resource location '..\media\.\PCZAppMedia' of type 'FileSystem' to resource group 'General'
+23:44:54: Added resource location '..\media\.\GUI Media' of type 'FileSystem' to resource group 'General'
+23:44:54: Added resource location '..\media\.\compositors' of type 'FileSystem' to resource group 'General'
+23:44:54: Added resource location '..\media\.\PGInstances' of type 'FileSystem' to resource group 'General'
+23:44:54: Creating resource group Hydrax
+23:44:54: Added resource location '..\media\.\Hydrax.zip' of type 'Zip' to resource group 'Hydrax'
+23:44:54: Creating resource group Models
+23:44:54: Added resource location '..\media\.\models' of type 'FileSystem' to resource group 'Models'
+23:44:54: Added resource location '..\media\.\models/menu' of type 'FileSystem' to resource group 'Models'
+23:44:54: Added resource location '..\media\.\models/characters' of type 'FileSystem' to resource group 'Models'
+23:44:54: Added resource location '..\media\.\models/buildings' of type 'FileSystem' to resource group 'Models'
+23:44:54: Added resource location '..\media\.\models/trees' of type 'FileSystem' to resource group 'Models'
+23:44:54: Added resource location '..\media\.\models/items' of type 'FileSystem' to resource group 'Models'
+23:44:54: Creating resource group SkyX
+23:44:54: Added resource location '..\media\.\SkyX.zip' of type 'Zip' to resource group 'SkyX'
+23:44:54: Creating resource group Terrain
+23:44:54: Added resource location '..\media\.\Terrain' of type 'FileSystem' to resource group 'Terrain'
+23:44:54: Creating resource group Textures
+23:44:54: Added resource location '..\media\.\materials/textures' of type 'FileSystem' to resource group 'Textures'
+23:44:54: Added resource location '..\media\.\materials/textures/human' of type 'FileSystem' to resource group 'Textures'
+23:44:54: Added resource location '..\media\.\materials/textures/buildings' of type 'FileSystem' to resource group 'Textures'
+23:44:54: Added resource location '..\media\.\materials/textures/trees' of type 'FileSystem' to resource group 'Textures'
+23:44:54: Added resource location '..\media\.\materials/textures/menu' of type 'FileSystem' to resource group 'Textures'
+23:44:54: Added resource location '..\media\.\materials/textures/terrain' of type 'FileSystem' to resource group 'Textures'
+23:44:54: Added resource location '..\media\.\materials/textures/items' of type 'FileSystem' to resource group 'Textures'
+23:44:54: Added resource location '..\media\.\materials/textures/effects' of type 'FileSystem' to resource group 'Textures'
+23:44:54: Creating resource group Woody3d
+23:44:54: Added resource location '..\media\.\woodymedia\shaders' of type 'FileSystem' to resource group 'Woody3d'
+23:44:54: Added resource location '..\media\.\woodymedia\trees' of type 'FileSystem' to resource group 'Woody3d'
+23:44:54: Particle Renderer Type 'shader' registered
+23:44:54: Particle Emitter Type 'BoxWithCustomParam' registered
+23:44:54: D3D9 : RenderSystem Option: Allow NVPerfHUD = No
+23:44:54: D3D9 : RenderSystem Option: FSAA = 0
+23:44:54: D3D9 : RenderSystem Option: Fixed Pipeline Enabled = Yes
+23:44:54: D3D9 : RenderSystem Option: Floating-point mode = Fastest
+23:44:54: D3D9 : RenderSystem Option: Full Screen = No
+23:44:54: D3D9 : RenderSystem Option: Multi device memory hint = Use minimum system memory
+23:44:54: D3D9 : RenderSystem Option: Rendering Device = Monitor-1-NVIDIA GeForce 8800 GTS 512
+23:44:54: D3D9 : RenderSystem Option: Resource Creation Policy = Create on all devices
+23:44:54: D3D9 : RenderSystem Option: VSync = No
+23:44:54: D3D9 : RenderSystem Option: VSync Interval = 1
+23:44:54: D3D9 : RenderSystem Option: Video Mode = 1024 x 768 @ 32-bit colour
+23:44:54: D3D9 : RenderSystem Option: sRGB Gamma Conversion = No
+23:44:54: CPU Identifier & Features
+23:44:54: -------------------------
+23:44:54:  *   CPU ID: AuthenticAMD: AMD Athlon(tm) II X2 255 Processor
+23:44:54:  *      SSE: yes
+23:44:54:  *     SSE2: yes
+23:44:54:  *     SSE3: yes
+23:44:54:  *      MMX: yes
+23:44:54:  *   MMXEXT: yes
+23:44:54:  *    3DNOW: yes
+23:44:54:  * 3DNOWEXT: yes
+23:44:54:  *     CMOV: yes
+23:44:54:  *      TSC: yes
+23:44:54:  *      FPU: yes
+23:44:54:  *      PRO: yes
+23:44:54:  *       HT: no
+23:44:54: -------------------------
+23:44:54: D3D9 : Subsystem Initialising
+23:44:54: Registering ResourceManager for type Texture
+23:44:54: Registering ResourceManager for type GpuProgram
+23:44:55: D3D9RenderSystem::_createRenderWindow "LI Tech Demo v0.0004 unstable", 1024x768 windowed  miscParams: FSAA=0 FSAAHint= colourDepth=32 gamma=false monitorIndex=0 useNVPerfHUD=false vsync=false vsyncInterval=1 
+23:44:55: D3D9 : Created D3D9 Rendering Window 'LI Tech Demo v0.0004 unstable' : 1008x700, 32bpp
+23:44:55: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+23:44:55: D3D9: Vertex texture format supported - PF_FLOAT16_RGB
+23:44:55: D3D9: Vertex texture format supported - PF_FLOAT16_RGBA
+23:44:55: D3D9: Vertex texture format supported - PF_FLOAT32_RGB
+23:44:55: D3D9: Vertex texture format supported - PF_FLOAT32_RGBA
+23:44:55: D3D9: Vertex texture format supported - PF_FLOAT16_R
+23:44:55: D3D9: Vertex texture format supported - PF_FLOAT32_R
+23:44:55: D3D9: Vertex texture format supported - PF_FLOAT16_GR
+23:44:55: D3D9: Vertex texture format supported - PF_FLOAT32_GR
+23:44:55: RenderSystem capabilities
+23:44:55: -------------------------
+23:44:55: RenderSystem Name: Direct3D9 Rendering Subsystem
+23:44:55: GPU Vendor: nvidia
+23:44:55: Device Name: Monitor-1-NVIDIA GeForce 8800 GTS 512
+23:44:55: Driver Version: 8.17.12.6658
+23:44:55:  * Fixed function pipeline: yes
+23:44:55:  * Hardware generation of mipmaps: yes
+23:44:55:  * Texture blending: yes
+23:44:55:  * Anisotropic texture filtering: yes
+23:44:55:  * Dot product texture operation: yes
+23:44:55:  * Cube mapping: yes
+23:44:55:  * Hardware stencil buffer: yes
+23:44:55:    - Stencil depth: 8
+23:44:55:    - Two sided stencil support: yes
+23:44:55:    - Wrap stencil values: yes
+23:44:55:  * Hardware vertex / index buffers: yes
+23:44:55:  * Vertex programs: yes
+23:44:55:  * Number of floating-point constants for vertex programs: 256
+23:44:55:  * Number of integer constants for vertex programs: 16
+23:44:55:  * Number of boolean constants for vertex programs: 16
+23:44:55:  * Fragment programs: yes
+23:44:55:  * Number of floating-point constants for fragment programs: 224
+23:44:55:  * Number of integer constants for fragment programs: 16
+23:44:55:  * Number of boolean constants for fragment programs: 16
+23:44:55:  * Geometry programs: no
+23:44:55:  * Number of floating-point constants for geometry programs: 0
+23:44:55:  * Number of integer constants for geometry programs: 0
+23:44:55:  * Number of boolean constants for geometry programs: 0
+23:44:55:  * Supported Shader Profiles: hlsl ps_1_1 ps_1_2 ps_1_3 ps_1_4 ps_2_0 ps_2_a ps_2_b ps_2_x ps_3_0 vs_1_1 vs_2_0 vs_2_a vs_2_x vs_3_0
+23:44:55:  * Texture Compression: yes
+23:44:55:    - DXT: yes
+23:44:55:    - VTC: no
+23:44:55:    - PVRTC: no
+23:44:55:  * Scissor Rectangle: yes
+23:44:55:  * Hardware Occlusion Query: yes
+23:44:55:  * User clip planes: yes
+23:44:55:  * VET_UBYTE4 vertex element type: yes
+23:44:55:  * Infinite far plane projection: yes
+23:44:55:  * Hardware render-to-texture: yes
+23:44:55:  * Floating point textures: yes
+23:44:55:  * Non-power-of-two textures: yes
+23:44:55:  * Volume textures: yes
+23:44:55:  * Multiple Render Targets: 4
+23:44:55:    - With different bit depths: yes
+23:44:55:  * Point Sprites: yes
+23:44:55:  * Extended point parameters: yes
+23:44:55:  * Max Point Size: 8192
+23:44:55:  * Vertex texture fetch: yes
+23:44:55:  * Number of world matrices: 0
+23:44:55:  * Number of texture units: 8
+23:44:55:  * Stencil buffer depth: 8
+23:44:55:  * Number of vertex blend matrices: 0
+23:44:55:    - Max vertex textures: 4
+23:44:55:    - Vertex textures shared: no
+23:44:55:  * Render to Vertex Buffer : no
+23:44:55:  * DirectX per stage constants: yes
+23:44:55: ***************************************
+23:44:55: *** D3D9 : Subsystem Initialised OK ***
+23:44:55: ***************************************
+23:44:55: DefaultWorkQueue('Root') initialising on thread main.
+23:44:55: Particle Renderer Type 'billboard' registered
+23:44:55: Parsing scripts for resource group Autodetect
+23:44:55: Finished parsing scripts for resource group Autodetect
+23:44:55: Creating resources for group Autodetect
+23:44:55: All done
+23:44:55: Parsing scripts for resource group Bootstrap
+23:44:55: Parsing script OgreCore.material
+23:44:55: Parsing script OgreProfiler.material
+23:44:55: Parsing script Ogre.fontdef
+23:44:55: Parsing script OgreDebugPanel.overlay
+23:44:55: Texture: New_Ogre_Border_Center.png: Loading 1 faces(PF_A8R8G8B8,256x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x128x1.
+23:44:55: Texture: New_Ogre_Border.png: Loading 1 faces(PF_A8R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+23:44:55: Texture: New_Ogre_Border_Break.png: Loading 1 faces(PF_A8R8G8B8,32x32x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+23:44:55: Texture: ogretext.png: Loading 1 faces(PF_A8R8G8B8,256x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x128x1.
+23:44:55: Parsing script OgreLoadingPanel.overlay
+23:44:55: Finished parsing scripts for resource group Bootstrap
+23:44:55: Creating resources for group Bootstrap
+23:44:55: All done
+23:44:55: Parsing scripts for resource group General
+23:44:55: Parsing script GBuffer.program
+23:44:55: OGRE EXCEPTION(2:InvalidParametersException): Parameter called matView does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1445)
+23:44:55: Compiler error: invalid parameters in GBuffer.program(9): setting of constant failed
+23:44:55: OGRE EXCEPTION(2:InvalidParametersException): Parameter called matWorldView does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1445)
+23:44:55: Compiler error: invalid parameters in GBuffer.program(11): setting of constant failed
+23:44:55: OGRE EXCEPTION(2:InvalidParametersException): Parameter called nearDistance does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1445)
+23:44:55: Compiler error: invalid parameters in GBuffer.program(24): setting of constant failed
+23:44:55: OGRE EXCEPTION(2:InvalidParametersException): Parameter called farDistance does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1445)
+23:44:55: Compiler error: invalid parameters in GBuffer.program(25): setting of constant failed
+23:44:55: Parsing script ShadowCaster.program
+23:44:55: Parsing script deferred_post.program
+23:44:55: Parsing script ShadowCaster.program
+23:44:55: Parsing script ShadowCaster.material
+23:44:55: Parsing script GBuffer.material
+23:44:55: Parsing script grass.material
+23:44:55: Parsing script level_lightGI.material
+23:44:55: OGRE EXCEPTION(2:InvalidParametersException): Parameter called matWorld does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1445)
+23:44:55: Compiler error: invalid parameters in level_lightGI.material(9): setting of constant failed
+23:44:55: OGRE EXCEPTION(2:InvalidParametersException): Parameter called matWorldView does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1445)
+23:44:55: Compiler error: invalid parameters in level_lightGI.material(10): setting of constant failed
+23:44:55: OGRE EXCEPTION(2:InvalidParametersException): Parameter called matTexViewProj does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1445)
+23:44:55: Compiler error: invalid parameters in level_lightGI.material(11): setting of constant failed
+23:44:55: OGRE EXCEPTION(2:InvalidParametersException): Parameter called vWidth does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1445)
+23:44:55: Compiler error: invalid parameters in level_lightGI.material(23): setting of constant failed
+23:44:55: OGRE EXCEPTION(2:InvalidParametersException): Parameter called vHeight does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1445)
+23:44:55: Compiler error: invalid parameters in level_lightGI.material(24): setting of constant failed
+23:44:55: OGRE EXCEPTION(2:InvalidParametersException): Parameter called farClipDistance does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1445)
+23:44:55: Compiler error: invalid parameters in level_lightGI.material(25): setting of constant failed
+23:44:55: OGRE EXCEPTION(2:InvalidParametersException): Parameter called nearClipDistance does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1445)
+23:44:55: Compiler error: invalid parameters in level_lightGI.material(26): setting of constant failed
+23:44:55: OGRE EXCEPTION(2:InvalidParametersException): Parameter called LightPos does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1445)
+23:44:55: Compiler error: invalid parameters in level_lightGI.material(27): setting of constant failed
+23:44:55: OGRE EXCEPTION(2:InvalidParametersException): Parameter called lightSpecular does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1445)
+23:44:55: Compiler error: invalid parameters in level_lightGI.material(29): setting of constant failed
+23:44:55: OGRE EXCEPTION(2:InvalidParametersException): Parameter called lightDiffuse does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1445)
+23:44:55: Compiler error: invalid parameters in level_lightGI.material(30): setting of constant failed
+23:44:55: OGRE EXCEPTION(2:InvalidParametersException): Parameter called ViewPos does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1445)
+23:44:55: Compiler error: invalid parameters in level_lightGI.material(31): setting of constant failed
+23:44:55: Parsing script menu.material
+23:44:55: Parsing script particle.material
+23:44:55: Parsing script particles.material
+23:44:55: Parsing script trees.material
+23:44:55: Parsing script deferred_post.material
+23:44:55: Compiler error: reference to a non existing object in deferred_post.material(19)
+23:44:55: Compiler error: reference to a non existing object in deferred_post.material(51)
+23:44:55: Compiler error: reference to a non existing object in deferred_post.material(80)
+23:44:55: Parsing script deferred_post_minilight.material
+23:44:55: Parsing script ShadowCaster.material
+23:44:55: Parsing script ssao.material
+23:44:55: Parsing script emitted_emitter.particle
+23:44:55: Parsing script Example-Water.particle
+23:44:55: Parsing script Example.particle
+23:44:55: Parsing script fire.particle
+23:44:55: Parsing script Fire_text.particle
+23:44:55: Parsing script smoke.particle
+23:44:55: Parsing script deferred.compositor
+23:44:55: Parsing script ssao.compositor
+23:44:55: Parsing script sample.fontdef
+23:44:55: Parsing script Ogre.fontdef
+23:44:55: Parsing script Info.overlay
+23:44:55: Parsing script MousePointer.overlay
+23:44:55: Texture: 0.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:55: Texture: 1.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:55: Texture: 2.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:55: Texture: 3.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:55: Texture: 4.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:55: Texture: 5.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:55: Texture: 6.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:55: Texture: 7.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:55: Texture: 8.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:55: Texture: 9.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:55: Texture: 10.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:55: Texture: 11.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:55: Texture: 12.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:55: Texture: 13.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:55: Texture: 14.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:55: Texture: 15.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:55: Texture: 16.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:55: Texture: 17.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:55: Texture: 18.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:55: Texture: 19.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:55: Texture: 20.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:55: Texture: 21.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:55: Texture: 22.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:55: Texture: 23.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:55: Texture: 24.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:55: Texture: 25.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:55: Texture: 26.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:55: Texture: 27.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:55: Parsing script PauseState.overlay
+23:44:55: Texture: PauseState.jpg: Loading 1 faces(PF_R8G8B8,1024x1024x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x1024x1.
+23:44:55: Parsing script ProgressBar.overlay
+23:44:55: Texture: loader.jpg: Loading 1 faces(PF_R8G8B8,1680x1050x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,1680x1050x1.
+23:44:55: Texture: dkyellow.png: Loading 1 faces(PF_R8G8B8,16x4x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,16x4x1.
+23:44:55: Finished parsing scripts for resource group General
+23:44:55: Creating resources for group General
+23:44:55: All done
+23:44:55: Parsing scripts for resource group Hydrax
+23:44:55: Finished parsing scripts for resource group Hydrax
+23:44:55: Creating resources for group Hydrax
+23:44:55: All done
+23:44:55: Parsing scripts for resource group Internal
+23:44:55: Finished parsing scripts for resource group Internal
+23:44:55: Creating resources for group Internal
+23:44:55: All done
+23:44:55: Parsing scripts for resource group Models
+23:44:55: Parsing script home_01.material
+23:44:55: Finished parsing scripts for resource group Models
+23:44:55: Creating resources for group Models
+23:44:55: All done
+23:44:55: Parsing scripts for resource group SkyX
+23:44:55: Parsing script SkyX.material
+23:44:57: Finished parsing scripts for resource group SkyX
+23:44:57: Creating resources for group SkyX
+23:44:57: All done
+23:44:57: Parsing scripts for resource group Terrain
+23:44:57: Finished parsing scripts for resource group Terrain
+23:44:57: Creating resources for group Terrain
+23:44:57: All done
+23:44:57: Parsing scripts for resource group Textures
+23:44:57: Parsing script buildings.material
+23:44:57: Parsing script misc.material
+23:44:57: Parsing script sc.material
+23:44:57: Parsing script spikes.material
+23:44:57: Parsing script spike_fence.material
+23:44:57: Parsing script stone.material
+23:44:57: Parsing script tree.05.material
+23:44:57: Parsing script tree.07.material
+23:44:57: Parsing script tree.09.material
+23:44:57: Parsing script trees.material
+23:44:57: Finished parsing scripts for resource group Textures
+23:44:57: Creating resources for group Textures
+23:44:57: All done
+23:44:57: Parsing scripts for resource group Woody3d
+23:44:57: Parsing script woody3d.program
+23:44:57: Finished parsing scripts for resource group Woody3d
+23:44:57: Creating resources for group Woody3d
+23:44:57: All done
+23:44:58: ********************************* IntroState::enter() *********************************
+23:44:58: Texture: 3.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:58: Texture: New_Ogre_Border_Center.png: Loading 1 faces(PF_A8R8G8B8,256x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x128x1.
+23:44:58: Texture: 4.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:58: Texture: New_Ogre_Border.png: Loading 1 faces(PF_A8R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+23:44:58: Texture: New_Ogre_Border_Break.png: Loading 1 faces(PF_A8R8G8B8,32x32x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+23:44:58: Texture: 1.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:58: Texture: 2.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:58: Texture: 22.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:58: Texture: ogretext.png: Loading 1 faces(PF_A8R8G8B8,256x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x128x1.
+23:44:58: Texture: 0.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:58: Texture: 5.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:58: Texture: 6.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:58: Texture: 7.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:58: Texture: 20.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:58: Texture: 8.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:58: Texture: 21.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:58: Texture: 9.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:58: Texture: 10.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:58: Texture: 11.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:58: Texture: 12.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:58: Texture: 13.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:58: Texture: 14.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:58: Texture: 15.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:58: Texture: 16.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:58: Texture: 17.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:58: Texture: 18.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:58: Texture: 19.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:58: Texture: 23.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:58: Texture: 24.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:58: Texture: 25.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:58: Texture: 26.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:58: Texture: 27.png: Loading 1 faces(PF_A8R8G8B8,50x50x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,50x50x1.
+23:44:58: Texture: dkyellow.png: Loading 1 faces(PF_R8G8B8,16x4x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,16x4x1.
+23:44:58: Texture: loader.jpg: Loading 1 faces(PF_R8G8B8,1680x1050x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,1680x1050x1.
+23:44:58: Texture: PauseState.jpg: Loading 1 faces(PF_R8G8B8,1024x1024x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x1024x1.
+23:44:58: Mesh: Loading menu_continue.mesh.
+23:44:58: WARNING: menu_continue.mesh is an older format ([MeshSerializer_v1.30]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+23:44:58: Can't assign material text_menu to SubEntity of MenuContinue because this Material does not exist. Have you forgotten to define it in a .material script?
+23:44:58: Mesh: Loading menu_new.mesh.
+23:44:58: WARNING: menu_new.mesh is an older format ([MeshSerializer_v1.30]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+23:44:58: Can't assign material text_menu to SubEntity of MenuNew because this Material does not exist. Have you forgotten to define it in a .material script?
+23:44:58: Mesh: Loading menu_battle.mesh.
+23:44:58: WARNING: menu_battle.mesh is an older format ([MeshSerializer_v1.30]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+23:44:58: Can't assign material text_menu to SubEntity of MenuBattle because this Material does not exist. Have you forgotten to define it in a .material script?
+23:44:58: Mesh: Loading menu_exit.mesh.
+23:44:58: WARNING: menu_exit.mesh is an older format ([MeshSerializer_v1.30]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+23:44:58: Can't assign material text_menu to SubEntity of MenuExit because this Material does not exist. Have you forgotten to define it in a .material script?
+23:44:58: Texture: rough_wood.tga: Loading 1 faces(PF_A8R8G8B8,523x190x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,523x190x1.
+23:44:59: Texture: SkyX_Starfield.png: Loading 1 faces(PF_A8R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,512x512x1.
+23:44:59: Texture: SkyX_Moon.png: Loading 1 faces(PF_A8R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,512x512x1.
+23:44:59: Texture: Noise.jpg: Loading 1 faces(PF_R8G8B8,1024x1024x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x1024x1.
+23:45:00: Texture: Cloud1.png: Loading 1 faces(PF_A8R8G8B8,1024x1024x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x1024x1.
+23:45:01: Texture: c22n.png: Loading 1 faces(PF_A8R8G8B8,1024x1024x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x1024x1.
+23:45:01: Texture: c22.png: Loading 1 faces(PF_A8R8G8B8,1024x1024x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x1024x1.
+23:45:01: [Hydrax] Hydrax created.
+23:45:01: [Hydrax] FFTBeautifuld.hdx loaded.
+23:45:01: [Hydrax] Creating module...
+23:45:01: [Hydrax] Creating ProjectedGridVertex module.
+23:45:01: [Hydrax] ProjectedGridVertex created.
+23:45:01: [Hydrax] Module created.
+23:45:01: [Hydrax] Initializating RTT Manager...
+23:45:01: [Hydrax] RTT manager initialized.
+23:45:01: [Hydrax] Registring device restored listener...
+23:45:01: [Hydrax] Device restored listener registred.
+23:45:01: [Hydrax] Creating materials...
+23:45:01: [Hydrax] Creating water material...
+23:45:01: Texture: Fresnel.bmp: Loading 1 faces(PF_L8,256x1x1) with  hardware generated mipmaps from Image. Internal format is PF_L8,256x1x1.
+23:45:01: Texture: Foam.png: Loading 1 faces(PF_R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+23:45:01: [Hydrax] Water material created.
+23:45:01: [Hydrax] Creating depth material...
+23:45:01: Texture: Caustics_0.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_1.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_2.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_3.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_4.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_5.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_6.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_7.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_8.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_9.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_10.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_11.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_12.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_13.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_14.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_15.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_16.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_17.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_18.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_19.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_20.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_21.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_22.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_23.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_24.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_25.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_26.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_27.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_28.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_29.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_30.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: Texture: Caustics_31.bmp: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+23:45:01: [Hydrax] Depth material created.
+23:45:01: [Hydrax] Creating underwater material...
+23:45:01: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HydraxDepthReflectionMap in resource group Hydrax or any other group. in ResourceGroupManager::openResource at ..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 756)
+23:45:01: Error loading texture HydraxDepthReflectionMap. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HydraxDepthReflectionMap in resource group Hydrax or any other group. in ResourceGroupManager::openResource at ..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 756)
+23:45:01: Texture: UnderwaterDistortion.jpg: Loading 1 faces(PF_R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,256x256x1.
+23:45:01: [Hydrax] Underwater material created.
+23:45:01: [Hydrax] Materials created.
+23:45:01: [Hydrax] Creating god rays...
+23:45:01: [Hydrax] Perlin destroyed.
+23:45:02: [Hydrax] God rays created.
+23:45:02: [Hydrax] Creating water mesh...
+23:45:02: [Hydrax] Water mesh created.
+23:45:02: Font Arialusing texture size 512x512
+23:45:02: Info: Freetype returned null for character 160 in font Arial
+23:45:02: Texture: ArialTexture: Loading 1 faces(PF_BYTE_LA,512x512x1) with 0 generated mipmaps from Image. Internal format is PF_BYTE_LA,512x512x1.
+23:45:02: Texture: explosion.tga: Loading 1 faces(PF_A8R8G8B8,64x64x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,64x64x1.
+23:45:03: [Hydrax] Perlin destroyed.
+23:45:03: [Hydrax] ProjectedGridVertex destroyed.
+23:45:03: [Hydrax] Perlin destroyed.
+23:45:03: [Hydrax] Hydrax object removed.
+23:45:03: ********************************* PlayState::enter() *********************************
+23:45:03: *************** Memory Usage play state enter 88mb
+23:45:03: Mesh: Loading Crate.mesh.
+23:45:03: WARNING: Crate.mesh is an older format ([MeshSerializer_v1.40]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+23:45:03: Can't assign material BarrelTexture to SubEntity of box because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:03: *************** Memory Usage before create scene88mb
+23:45:03: Texture: loader.jpg: Loading 1 faces(PF_R8G8B8,1680x1050x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,1680x1050x1.
+23:45:03: Texture: dkyellow.png: Loading 1 faces(PF_R8G8B8,16x4x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,16x4x1.
+23:45:03: Font BlueHighwayusing texture size 512x512
+23:45:03: Info: Freetype returned null for character 127 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 128 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 129 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 130 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 131 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 132 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 133 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 134 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 135 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 136 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 137 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 138 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 139 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 140 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 141 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 142 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 143 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 144 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 145 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 146 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 147 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 148 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 149 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 150 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 151 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 152 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 153 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 154 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 155 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 156 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 157 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 158 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 159 in font BlueHighway
+23:45:03: Info: Freetype returned null for character 160 in font BlueHighway
+23:45:03: Texture: BlueHighwayTexture: Loading 1 faces(PF_BYTE_LA,512x512x1) with 0 generated mipmaps from Image. Internal format is PF_BYTE_LA,512x512x1.
+23:45:05: *************** Memory Usage before create skyX102mb
+23:45:05: Texture: SkyX_Starfield.png: Loading 1 faces(PF_A8R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,512x512x1.
+23:45:05: Texture: SkyX_Moon.png: Loading 1 faces(PF_A8R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,512x512x1.
+23:45:05: Texture: Noise.jpg: Loading 1 faces(PF_R8G8B8,1024x1024x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x1024x1.
+23:45:07: Texture: Cloud1.png: Loading 1 faces(PF_A8R8G8B8,1024x1024x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x1024x1.
+23:45:07: Texture: c22n.png: Loading 1 faces(PF_A8R8G8B8,1024x1024x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x1024x1.
+23:45:07: Texture: c22.png: Loading 1 faces(PF_A8R8G8B8,1024x1024x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x1024x1.
+23:45:07: *************** Memory Usage before ogscene loader138mb
+23:45:07: Parsing OgScene file with version 2
+23:45:07: [OgSceneLoader] start read objects 
+23:45:07: [OgSceneLoader] object done OctreeSceneManager
+23:45:07: [OgSceneLoader] object done Viewport Object
+23:45:07: [OgSceneLoader] object done Paging Manager Object
+23:45:07: [OgSceneLoader] object done Node Object
+23:45:07: [OgSceneLoader] object done Node Object
+23:45:07: [OgSceneLoader] object done Node Object
+23:45:07: [OgSceneLoader] object done Node Object
+23:45:07: [OgSceneLoader] object done Node Object
+23:45:07: [OgSceneLoader] object done Node Object
+23:45:07: [OgSceneLoader] object done Node Object
+23:45:07: [OgSceneLoader] object done Node Object
+23:45:07: [OgSceneLoader] object done Node Object
+23:45:07: [OgSceneLoader] object done Node Object
+23:45:07: [OgSceneLoader] object done Node Object
+23:45:07: [OgSceneLoader] object done Node Object
+23:45:07: [OgSceneLoader] object done Node Object
+23:45:07: [OgSceneLoader] object done Node Object
+23:45:07: [OgSceneLoader] object done Node Object
+23:45:07: [OgSceneLoader] object done Node Object
+23:45:07: [OgSceneLoader] object done Node Object
+23:45:07: [OgSceneLoader] object done Node Object
+23:45:07: [OgSceneLoader] object done Node Object
+23:45:07: [OgSceneLoader] object done Node Object
+23:45:07: [OgSceneLoader] object done Skyx Object
+23:45:07: [OgSceneLoader] object done Light Object
+23:45:07: [OgSceneLoader] object done Light Object
+23:45:07: [OgSceneLoader] object done Terrain Group Object
+23:45:07: [OgSceneLoader] object done Hydrax Object
+23:45:07: [OgSceneLoader] object done PGInstance Manager Object
+23:45:07: [OgSceneLoader] object done PGInstance Manager Object
+23:45:07: [OgSceneLoader] object done PGInstance Manager Object
+23:45:07: [OgSceneLoader] object done PGInstance Manager Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: [OgSceneLoader] object done Entity Object
+23:45:07: Texture: Page_00000001_density.tga: Loading 1 faces(PF_A8R8G8B8,1024x1024x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x1024x1.
+23:45:08: [OgSceneLoader] object done Terrain Page Object
+23:45:08: Texture: Page_00000000_density.tga: Loading 1 faces(PF_A8R8G8B8,1024x1024x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x1024x1.
+23:45:08: [OgSceneLoader] object done Terrain Page Object
+23:45:08: Texture: Page_00010000_density.tga: Loading 1 faces(PF_A8R8G8B8,1024x1024x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x1024x1.
+23:45:08: [OgSceneLoader] object done Terrain Page Object
+23:45:08: Texture: Page_00010001_density.tga: Loading 1 faces(PF_A8R8G8B8,1024x1024x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x1024x1.
+23:45:08: [OgSceneLoader] object done Terrain Page Object
+23:45:09: Terrain created; size=513 minBatch=33 maxBatch=129 treeDepth=3 lodLevels=5 leafLods=3
+23:45:09: Terrain created; size=513 minBatch=33 maxBatch=129 treeDepth=3 lodLevels=5 leafLods=3
+23:45:10: Terrain created; size=513 minBatch=33 maxBatch=129 treeDepth=3 lodLevels=5 leafLods=3
+23:45:11: Terrain created; size=513 minBatch=33 maxBatch=129 treeDepth=3 lodLevels=5 leafLods=3
+23:45:11: [OgSceneLoader] object done OctreeSceneManager
+23:45:11: [OgSceneLoader] object done Viewport Object
+23:45:11: [OgSceneLoader] object done Paging Manager Object
+23:45:11: [OgSceneLoader] object done Node Object
+23:45:11: [OgSceneLoader] object done Node Object
+23:45:11: [OgSceneLoader] object done Node Object
+23:45:11: [OgSceneLoader] object done Node Object
+23:45:11: [OgSceneLoader] object done Node Object
+23:45:11: [OgSceneLoader] object done Node Object
+23:45:11: [OgSceneLoader] object done Node Object
+23:45:11: [OgSceneLoader] object done Node Object
+23:45:11: [OgSceneLoader] object done Node Object
+23:45:11: [OgSceneLoader] object done Node Object
+23:45:11: [OgSceneLoader] object done Node Object
+23:45:11: [OgSceneLoader] object done Node Object
+23:45:11: [OgSceneLoader] object done Node Object
+23:45:11: [OgSceneLoader] object done Node Object
+23:45:11: [OgSceneLoader] object done Node Object
+23:45:11: [OgSceneLoader] object done Node Object
+23:45:11: [OgSceneLoader] object done Node Object
+23:45:11: [OgSceneLoader] object done Node Object
+23:45:11: [OgSceneLoader] object done Node Object
+23:45:11: [OgSceneLoader] object done Node Object
+23:45:11: [OgSceneLoader] object done Skyx Object
+23:45:11: [OgSceneLoader] object done Light Object
+23:45:11: [OgSceneLoader] object done Light Object
+23:45:11: [OgSceneLoader] object done Terrain Group Object
+23:45:11: [OgSceneLoader] object done Hydrax Object
+23:45:11: [OgSceneLoader] object done PGInstance Manager Object
+23:45:11: [OgSceneLoader] object done PGInstance Manager Object
+23:45:11: [OgSceneLoader] object done PGInstance Manager Object
+23:45:11: [OgSceneLoader] object done PGInstance Manager Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Entity Object
+23:45:11: [OgSceneLoader] object done Terrain Page Object
+23:45:11: [OgSceneLoader] object done Terrain Page Object
+23:45:11: [OgSceneLoader] object done Terrain Page Object
+23:45:11: [OgSceneLoader] object done Terrain Page Object
+23:45:11: *************** Memory Usage after ogscene loader238mb
+23:45:11: void main_vp(
+float2 posIndex : POSITION,
+float height  : TEXCOORD0,
+float2 delta  : TEXCOORD1,
+uniform float4x4 WorldMatrix,
+uniform float4x4 viewMatrix,
+uniform float4x4 WorldViewMatrix,
+uniform float4x4 viewProjMatrix,
+uniform float2   lodMorph,
+uniform float4x4   posIndexToObjectSpace,
+uniform float    baseUVScale,
+uniform float4 uvMul0, 
+uniform float4 uvMul1, 
+out float4 oPos : POSITION,
+out float4 oPosObj : TEXCOORD0, 
+out float4 oWorldPos : TEXCOORD1 
+, out float4 oUVMisc : TEXCOORD2 // xy = uv, z = camDepth
+, out float4 oUV0 : TEXCOORD3
+, out float4 oUV1 : TEXCOORD4
+, out float4 oUV2 : TEXCOORD5
+)
+{
+	float4 pos;
+	pos = mul( posIndexToObjectSpace, float4( posIndex, height, 1));
+	float2 uv = float2( posIndex.x * baseUVScale, 1.0 - ( posIndex.y * baseUVScale));
+	float4 worldPos = mul( WorldMatrix, pos);
+	oPosObj = pos;
+	float toMorph = -min(0, sign(delta.y - lodMorph.y));
+	worldPos.y += delta.x * toMorph * lodMorph.x;
+	oUV0.xy =  uv.xy * uvMul0.r;
+	oUV0.zw =  uv.xy * uvMul0.g;
+	oUV1.xy =  uv.xy * uvMul0.b;
+	oUV1.zw =  uv.xy * uvMul0.a;
+	oUV2.xy =  uv.xy * uvMul1.r;
+	oUV2.zw =  uv.xy * uvMul1.g;
+	oPos = mul( viewProjMatrix, worldPos);
+	oWorldPos = mul( WorldMatrix, oPos);
+	oUVMisc.xy = uv.xy;
+}
+
+23:45:12: struct PS_OUTPUT {				float4 Rtt0 : COLOR0;
+		float4 Rtt1 : COLOR1;
+		float4 Rtt2 : COLOR2;
+		float4 Rtt3 : COLOR3;
+	};
+PS_OUTPUT main_fp(
+float4 position : TEXCOORD0,
+float4 PosInWorld : TEXCOORD1,
+float4 uvMisc : TEXCOORD2,
+float4 layerUV0 : TEXCOORD3, 
+float4 layerUV1 : TEXCOORD4, 
+float4 layerUV2 : TEXCOORD5, 
+uniform float4x4 WorldMatrix,
+uniform sampler2D globalNormal : register(s0)
+, uniform sampler2D blendTex0 : register(s1)
+, uniform sampler2D blendTex1 : register(s2)
+, uniform sampler2D difftex0 : register(s3)
+, uniform sampler2D normtex0 : register(s4)
+, uniform sampler2D difftex1 : register(s5)
+, uniform sampler2D normtex1 : register(s6)
+, uniform sampler2D difftex2 : register(s7)
+, uniform sampler2D normtex2 : register(s8)
+, uniform sampler2D difftex3 : register(s9)
+, uniform sampler2D normtex3 : register(s10)
+, uniform sampler2D difftex4 : register(s11)
+, uniform sampler2D normtex4 : register(s12)
+, uniform sampler2D difftex5 : register(s13)
+, uniform sampler2D normtex5 : register(s14)
+) : COLOR
+{
+	float2 uv = uvMisc.xy;
+	float3 normal = (( tex2D( globalNormal, uv)-0.5)*2).rgb;
+	normal = mul( WorldMatrix, float4( normal, 1)).xyz;
+	float3 diffuse = float3(0,0,0);
+	float specular = 0;
+	float4 blendTexVal0 = tex2D(blendTex0, uv);
+	float4 blendTexVal1 = tex2D(blendTex1, uv);
+	float3 tangent = float3(1, 0, 0);
+	tangent = mul( WorldMatrix, float4( tangent, 1)).xyz;
+	float3 binormal = normalize(cross( normal, tangent));
+	float3x3 TBN = float3x3( tangent, binormal, normal);
+	float3  oTSnormal;
+	float2 uv0 = layerUV0.xy;
+	float3 TSnormal0  = (( tex2D( normtex0, uv0)-0.5)*2).rgb;
+	float4 diffuseSpecTex0 = tex2D( difftex0, uv0);
+	diffuse = diffuseSpecTex0.rgb;
+	specular = diffuseSpecTex0.a;
+	float2 uv1 = layerUV0.zw;
+	float3 TSnormal1  = (( tex2D( normtex1, uv1)-0.5)*2).rgb;
+	float4 diffuseSpecTex1 = tex2D( difftex1, uv1);
+	diffuse = lerp( diffuse, diffuseSpecTex1.rgb, blendTexVal0.r);
+	specular = lerp( specular, diffuseSpecTex1.a, blendTexVal0.r);
+	oTSnormal = lerp( oTSnormal, TSnormal1.rgb, blendTexVal0.r);
+	float2 uv2 = layerUV1.xy;
+	float3 TSnormal2  = (( tex2D( normtex2, uv2)-0.5)*2).rgb;
+	float4 diffuseSpecTex2 = tex2D( difftex2, uv2);
+	diffuse = lerp( diffuse, diffuseSpecTex2.rgb, blendTexVal0.g);
+	specular = lerp( specular, diffuseSpecTex2.a, blendTexVal0.g);
+	oTSnormal = lerp( oTSnormal, TSnormal2.rgb, blendTexVal0.g);
+	float2 uv3 = layerUV1.zw;
+	float3 TSnormal3  = (( tex2D( normtex3, uv3)-0.5)*2).rgb;
+	float4 diffuseSpecTex3 = tex2D( difftex3, uv3);
+	diffuse = lerp( diffuse, diffuseSpecTex3.rgb, blendTexVal0.b);
+	specular = lerp( specular, diffuseSpecTex3.a, blendTexVal0.b);
+	oTSnormal = lerp( oTSnormal, TSnormal3.rgb, blendTexVal0.b);
+	float2 uv4 = layerUV2.xy;
+	float3 TSnormal4  = (( tex2D( normtex4, uv4)-0.5)*2).rgb;
+	float4 diffuseSpecTex4 = tex2D( difftex4, uv4);
+	diffuse = lerp( diffuse, diffuseSpecTex4.rgb, blendTexVal0.a);
+	specular = lerp( specular, diffuseSpecTex4.a, blendTexVal0.a);
+	oTSnormal = lerp( oTSnormal, TSnormal4.rgb, blendTexVal0.a);
+	float2 uv5 = layerUV2.zw;
+	float3 TSnormal5  = (( tex2D( normtex5, uv5)-0.5)*2).rgb;
+	float4 diffuseSpecTex5 = tex2D( difftex5, uv5);
+	diffuse = lerp( diffuse, diffuseSpecTex5.rgb, blendTexVal1.r);
+	specular = lerp( specular, diffuseSpecTex5.a, blendTexVal1.r);
+	oTSnormal = lerp( oTSnormal, TSnormal5.rgb, blendTexVal1.r);
+	PS_OUTPUT Out;
+	Out.Rtt0.rgb = diffuse.rgb;
+	Out.Rtt0.a = specular;
+	Out.Rtt1.rgb = TSnormal1;
+	Out.Rtt1.a = 1;
+	Out.Rtt2 = PosInWorld;
+	Out.Rtt3 = float4( 1, 1, 1, 1);
+	return Out
+;}
+
+23:45:12: D3D9 : Loading 2D Texture, image name : 'volcano_2_diffusespecular.dds' with 5 mip map levels
+23:45:12: D3D9 : Loading 2D Texture, image name : 'volcano_2_normalheight.dds' with 5 mip map levels
+23:45:12: D3D9 : Loading 2D Texture, image name : 'desert_2_diffusespecular.dds' with 5 mip map levels
+23:45:12: D3D9 : Loading 2D Texture, image name : 'desert_2_normalheight.dds' with 5 mip map levels
+23:45:12: D3D9 : Loading 2D Texture, image name : 'jungle_0_diffusespecular.dds' with 5 mip map levels
+23:45:12: D3D9 : Loading 2D Texture, image name : 'jungle_0_normalheight.dds' with 5 mip map levels
+23:45:12: D3D9 : Loading 2D Texture, image name : 'desert_1_diffusespecular.dds' with 5 mip map levels
+23:45:12: D3D9 : Loading 2D Texture, image name : 'desert_1_normalheight.dds' with 5 mip map levels
+23:45:12: D3D9 : Loading 2D Texture, image name : 'jungle_6_diffusespecular.dds' with 5 mip map levels
+23:45:12: D3D9 : Loading 2D Texture, image name : 'jungle_6_normalheight.dds' with 5 mip map levels
+23:45:12: D3D9 : Loading 2D Texture, image name : 'desert_6_diffusespecular.dds' with 5 mip map levels
+23:45:12: D3D9 : Loading 2D Texture, image name : 'desert_6_normalheight.dds' with 5 mip map levels
+23:45:12: void main_vp(
+float2 posIndex : POSITION,
+float height  : TEXCOORD0,
+float2 delta  : TEXCOORD1,
+uniform float4x4 WorldMatrix,
+uniform float4x4 viewMatrix,
+uniform float4x4 WorldViewMatrix,
+uniform float4x4 viewProjMatrix,
+uniform float2   lodMorph,
+uniform float4x4   posIndexToObjectSpace,
+uniform float    baseUVScale,
+uniform float4 uvMul0, 
+uniform float4 uvMul1, 
+out float4 oPos : POSITION,
+out float4 oPosObj : TEXCOORD0, 
+out float4 oWorldPos : TEXCOORD1 
+, out float4 oUVMisc : TEXCOORD2 // xy = uv, z = camDepth
+, out float4 oUV0 : TEXCOORD3
+, out float4 oUV1 : TEXCOORD4
+, out float4 oUV2 : TEXCOORD5
+)
+{
+	float4 pos;
+	pos = mul( posIndexToObjectSpace, float4( posIndex, height, 1));
+	float2 uv = float2( posIndex.x * baseUVScale, 1.0 - ( posIndex.y * baseUVScale));
+	float4 worldPos = mul( WorldMatrix, pos);
+	oPosObj = pos;
+	float toMorph = -min(0, sign(delta.y - lodMorph.y));
+	worldPos.y += delta.x * toMorph * lodMorph.x;
+	oUV0.xy =  uv.xy * uvMul0.r;
+	oUV0.zw =  uv.xy * uvMul0.g;
+	oUV1.xy =  uv.xy * uvMul0.b;
+	oUV1.zw =  uv.xy * uvMul0.a;
+	oUV2.xy =  uv.xy * uvMul1.r;
+	oUV2.zw =  uv.xy * uvMul1.g;
+	oPos = mul( viewProjMatrix, worldPos);
+	oWorldPos = mul( WorldMatrix, oPos);
+	oUVMisc.xy = uv.xy;
+}
+
+23:45:12: struct PS_OUTPUT {				float4 Rtt0 : COLOR0;
+		float4 Rtt1 : COLOR1;
+		float4 Rtt2 : COLOR2;
+		float4 Rtt3 : COLOR3;
+	};
+PS_OUTPUT main_fp(
+float4 position : TEXCOORD0,
+float4 PosInWorld : TEXCOORD1,
+float4 uvMisc : TEXCOORD2,
+float4 layerUV0 : TEXCOORD3, 
+float4 layerUV1 : TEXCOORD4, 
+float4 layerUV2 : TEXCOORD5, 
+uniform float4x4 WorldMatrix,
+uniform sampler2D globalNormal : register(s0)
+, uniform sampler2D blendTex0 : register(s1)
+, uniform sampler2D blendTex1 : register(s2)
+, uniform sampler2D difftex0 : register(s3)
+, uniform sampler2D normtex0 : register(s4)
+, uniform sampler2D difftex1 : register(s5)
+, uniform sampler2D normtex1 : register(s6)
+, uniform sampler2D difftex2 : register(s7)
+, uniform sampler2D normtex2 : register(s8)
+, uniform sampler2D difftex3 : register(s9)
+, uniform sampler2D normtex3 : register(s10)
+, uniform sampler2D difftex4 : register(s11)
+, uniform sampler2D normtex4 : register(s12)
+) : COLOR
+{
+	float2 uv = uvMisc.xy;
+	float3 normal = (( tex2D( globalNormal, uv)-0.5)*2).rgb;
+	normal = mul( WorldMatrix, float4( normal, 1)).xyz;
+	float3 diffuse = float3(0,0,0);
+	float specular = 0;
+	float4 blendTexVal0 = tex2D(blendTex0, uv);
+	float4 blendTexVal1 = tex2D(blendTex1, uv);
+	float3 tangent = float3(1, 0, 0);
+	tangent = mul( WorldMatrix, float4( tangent, 1)).xyz;
+	float3 binormal = normalize(cross( normal, tangent));
+	float3x3 TBN = float3x3( tangent, binormal, normal);
+	float3  oTSnormal;
+	float2 uv0 = layerUV0.xy;
+	float3 TSnormal0  = (( tex2D( normtex0, uv0)-0.5)*2).rgb;
+	float4 diffuseSpecTex0 = tex2D( difftex0, uv0);
+	diffuse = diffuseSpecTex0.rgb;
+	specular = diffuseSpecTex0.a;
+	float2 uv1 = layerUV0.zw;
+	float3 TSnormal1  = (( tex2D( normtex1, uv1)-0.5)*2).rgb;
+	float4 diffuseSpecTex1 = tex2D( difftex1, uv1);
+	diffuse = lerp( diffuse, diffuseSpecTex1.rgb, blendTexVal0.r);
+	specular = lerp( specular, diffuseSpecTex1.a, blendTexVal0.r);
+	oTSnormal = lerp( oTSnormal, TSnormal1.rgb, blendTexVal0.r);
+	float2 uv2 = layerUV1.xy;
+	float3 TSnormal2  = (( tex2D( normtex2, uv2)-0.5)*2).rgb;
+	float4 diffuseSpecTex2 = tex2D( difftex2, uv2);
+	diffuse = lerp( diffuse, diffuseSpecTex2.rgb, blendTexVal0.g);
+	specular = lerp( specular, diffuseSpecTex2.a, blendTexVal0.g);
+	oTSnormal = lerp( oTSnormal, TSnormal2.rgb, blendTexVal0.g);
+	float2 uv3 = layerUV1.zw;
+	float3 TSnormal3  = (( tex2D( normtex3, uv3)-0.5)*2).rgb;
+	float4 diffuseSpecTex3 = tex2D( difftex3, uv3);
+	diffuse = lerp( diffuse, diffuseSpecTex3.rgb, blendTexVal0.b);
+	specular = lerp( specular, diffuseSpecTex3.a, blendTexVal0.b);
+	oTSnormal = lerp( oTSnormal, TSnormal3.rgb, blendTexVal0.b);
+	float2 uv4 = layerUV2.xy;
+	float3 TSnormal4  = (( tex2D( normtex4, uv4)-0.5)*2).rgb;
+	float4 diffuseSpecTex4 = tex2D( difftex4, uv4);
+	diffuse = lerp( diffuse, diffuseSpecTex4.rgb, blendTexVal0.a);
+	specular = lerp( specular, diffuseSpecTex4.a, blendTexVal0.a);
+	oTSnormal = lerp( oTSnormal, TSnormal4.rgb, blendTexVal0.a);
+	PS_OUTPUT Out;
+	Out.Rtt0.rgb = diffuse.rgb;
+	Out.Rtt0.a = specular;
+	Out.Rtt1.rgb = TSnormal1;
+	Out.Rtt1.a = 1;
+	Out.Rtt2 = PosInWorld;
+	Out.Rtt3 = float4( 1, 1, 1, 1);
+	return Out
+;}
+
+23:45:12: D3D9 : Loading 2D Texture, image name : 'volcano_1_diffusespecular.dds' with 5 mip map levels
+23:45:12: D3D9 : Loading 2D Texture, image name : 'volcano_1_normalheight.dds' with 5 mip map levels
+23:45:12: void main_vp(
+float2 posIndex : POSITION,
+float height  : TEXCOORD0,
+float2 delta  : TEXCOORD1,
+uniform float4x4 WorldMatrix,
+uniform float4x4 viewMatrix,
+uniform float4x4 WorldViewMatrix,
+uniform float4x4 viewProjMatrix,
+uniform float2   lodMorph,
+uniform float4x4   posIndexToObjectSpace,
+uniform float    baseUVScale,
+uniform float4 uvMul0, 
+out float4 oPos : POSITION,
+out float4 oPosObj : TEXCOORD0, 
+out float4 oWorldPos : TEXCOORD1 
+, out float4 oUVMisc : TEXCOORD2 // xy = uv, z = camDepth
+, out float4 oUV0 : TEXCOORD3
+, out float4 oUV1 : TEXCOORD4
+)
+{
+	float4 pos;
+	pos = mul( posIndexToObjectSpace, float4( posIndex, height, 1));
+	float2 uv = float2( posIndex.x * baseUVScale, 1.0 - ( posIndex.y * baseUVScale));
+	float4 worldPos = mul( WorldMatrix, pos);
+	oPosObj = pos;
+	float toMorph = -min(0, sign(delta.y - lodMorph.y));
+	worldPos.y += delta.x * toMorph * lodMorph.x;
+	oUV0.xy =  uv.xy * uvMul0.r;
+	oUV0.zw =  uv.xy * uvMul0.g;
+	oUV1.xy =  uv.xy * uvMul0.b;
+	oUV1.zw =  uv.xy * uvMul0.a;
+	oPos = mul( viewProjMatrix, worldPos);
+	oWorldPos = mul( WorldMatrix, oPos);
+	oUVMisc.xy = uv.xy;
+}
+
+23:45:12: struct PS_OUTPUT {				float4 Rtt0 : COLOR0;
+		float4 Rtt1 : COLOR1;
+		float4 Rtt2 : COLOR2;
+		float4 Rtt3 : COLOR3;
+	};
+PS_OUTPUT main_fp(
+float4 position : TEXCOORD0,
+float4 PosInWorld : TEXCOORD1,
+float4 uvMisc : TEXCOORD2,
+float4 layerUV0 : TEXCOORD3, 
+float4 layerUV1 : TEXCOORD4, 
+uniform float4x4 WorldMatrix,
+uniform sampler2D globalNormal : register(s0)
+, uniform sampler2D blendTex0 : register(s1)
+, uniform sampler2D difftex0 : register(s2)
+, uniform sampler2D normtex0 : register(s3)
+, uniform sampler2D difftex1 : register(s4)
+, uniform sampler2D normtex1 : register(s5)
+, uniform sampler2D difftex2 : register(s6)
+, uniform sampler2D normtex2 : register(s7)
+) : COLOR
+{
+	float2 uv = uvMisc.xy;
+	float3 normal = (( tex2D( globalNormal, uv)-0.5)*2).rgb;
+	normal = mul( WorldMatrix, float4( normal, 1)).xyz;
+	float3 diffuse = float3(0,0,0);
+	float specular = 0;
+	float4 blendTexVal0 = tex2D(blendTex0, uv);
+	float3 tangent = float3(1, 0, 0);
+	tangent = mul( WorldMatrix, float4( tangent, 1)).xyz;
+	float3 binormal = normalize(cross( normal, tangent));
+	float3x3 TBN = float3x3( tangent, binormal, normal);
+	float3  oTSnormal;
+	float2 uv0 = layerUV0.xy;
+	float3 TSnormal0  = (( tex2D( normtex0, uv0)-0.5)*2).rgb;
+	float4 diffuseSpecTex0 = tex2D( difftex0, uv0);
+	diffuse = diffuseSpecTex0.rgb;
+	specular = diffuseSpecTex0.a;
+	float2 uv1 = layerUV0.zw;
+	float3 TSnormal1  = (( tex2D( normtex1, uv1)-0.5)*2).rgb;
+	float4 diffuseSpecTex1 = tex2D( difftex1, uv1);
+	diffuse = lerp( diffuse, diffuseSpecTex1.rgb, blendTexVal0.r);
+	specular = lerp( specular, diffuseSpecTex1.a, blendTexVal0.r);
+	oTSnormal = lerp( oTSnormal, TSnormal1.rgb, blendTexVal0.r);
+	float2 uv2 = layerUV1.xy;
+	float3 TSnormal2  = (( tex2D( normtex2, uv2)-0.5)*2).rgb;
+	float4 diffuseSpecTex2 = tex2D( difftex2, uv2);
+	diffuse = lerp( diffuse, diffuseSpecTex2.rgb, blendTexVal0.g);
+	specular = lerp( specular, diffuseSpecTex2.a, blendTexVal0.g);
+	oTSnormal = lerp( oTSnormal, TSnormal2.rgb, blendTexVal0.g);
+	PS_OUTPUT Out;
+	Out.Rtt0.rgb = diffuse.rgb;
+	Out.Rtt0.a = specular;
+	Out.Rtt1.rgb = TSnormal1;
+	Out.Rtt1.a = 1;
+	Out.Rtt2 = PosInWorld;
+	Out.Rtt3 = float4( 1, 1, 1, 1);
+	return Out
+;}
+
+23:45:12: void main_vp(
+float2 posIndex : POSITION,
+float height  : TEXCOORD0,
+float2 delta  : TEXCOORD1,
+uniform float4x4 WorldMatrix,
+uniform float4x4 viewMatrix,
+uniform float4x4 WorldViewMatrix,
+uniform float4x4 viewProjMatrix,
+uniform float2   lodMorph,
+uniform float4x4   posIndexToObjectSpace,
+uniform float    baseUVScale,
+uniform float4 uvMul0, 
+uniform float4 uvMul1, 
+out float4 oPos : POSITION,
+out float4 oPosObj : TEXCOORD0, 
+out float4 oWorldPos : TEXCOORD1 
+, out float4 oUVMisc : TEXCOORD2 // xy = uv, z = camDepth
+, out float4 oUV0 : TEXCOORD3
+, out float4 oUV1 : TEXCOORD4
+, out float4 oUV2 : TEXCOORD5
+)
+{
+	float4 pos;
+	pos = mul( posIndexToObjectSpace, float4( posIndex, height, 1));
+	float2 uv = float2( posIndex.x * baseUVScale, 1.0 - ( posIndex.y * baseUVScale));
+	float4 worldPos = mul( WorldMatrix, pos);
+	oPosObj = pos;
+	float toMorph = -min(0, sign(delta.y - lodMorph.y));
+	worldPos.y += delta.x * toMorph * lodMorph.x;
+	oUV0.xy =  uv.xy * uvMul0.r;
+	oUV0.zw =  uv.xy * uvMul0.g;
+	oUV1.xy =  uv.xy * uvMul0.b;
+	oUV1.zw =  uv.xy * uvMul0.a;
+	oUV2.xy =  uv.xy * uvMul1.r;
+	oUV2.zw =  uv.xy * uvMul1.g;
+	oPos = mul( viewProjMatrix, worldPos);
+	oWorldPos = mul( WorldMatrix, oPos);
+	oUVMisc.xy = uv.xy;
+}
+
+23:45:12: struct PS_OUTPUT {				float4 Rtt0 : COLOR0;
+		float4 Rtt1 : COLOR1;
+		float4 Rtt2 : COLOR2;
+		float4 Rtt3 : COLOR3;
+	};
+PS_OUTPUT main_fp(
+float4 position : TEXCOORD0,
+float4 PosInWorld : TEXCOORD1,
+float4 uvMisc : TEXCOORD2,
+float4 layerUV0 : TEXCOORD3, 
+float4 layerUV1 : TEXCOORD4, 
+float4 layerUV2 : TEXCOORD5, 
+uniform float4x4 WorldMatrix,
+uniform sampler2D globalNormal : register(s0)
+, uniform sampler2D blendTex0 : register(s1)
+, uniform sampler2D blendTex1 : register(s2)
+, uniform sampler2D difftex0 : register(s3)
+, uniform sampler2D normtex0 : register(s4)
+, uniform sampler2D difftex1 : register(s5)
+, uniform sampler2D normtex1 : register(s6)
+, uniform sampler2D difftex2 : register(s7)
+, uniform sampler2D normtex2 : register(s8)
+, uniform sampler2D difftex3 : register(s9)
+, uniform sampler2D normtex3 : register(s10)
+, uniform sampler2D difftex4 : register(s11)
+, uniform sampler2D normtex4 : register(s12)
+, uniform sampler2D difftex5 : register(s13)
+, uniform sampler2D normtex5 : register(s14)
+) : COLOR
+{
+	float2 uv = uvMisc.xy;
+	float3 normal = (( tex2D( globalNormal, uv)-0.5)*2).rgb;
+	normal = mul( WorldMatrix, float4( normal, 1)).xyz;
+	float3 diffuse = float3(0,0,0);
+	float specular = 0;
+	float4 blendTexVal0 = tex2D(blendTex0, uv);
+	float4 blendTexVal1 = tex2D(blendTex1, uv);
+	float3 tangent = float3(1, 0, 0);
+	tangent = mul( WorldMatrix, float4( tangent, 1)).xyz;
+	float3 binormal = normalize(cross( normal, tangent));
+	float3x3 TBN = float3x3( tangent, binormal, normal);
+	float3  oTSnormal;
+	float2 uv0 = layerUV0.xy;
+	float3 TSnormal0  = (( tex2D( normtex0, uv0)-0.5)*2).rgb;
+	float4 diffuseSpecTex0 = tex2D( difftex0, uv0);
+	diffuse = diffuseSpecTex0.rgb;
+	specular = diffuseSpecTex0.a;
+	float2 uv1 = layerUV0.zw;
+	float3 TSnormal1  = (( tex2D( normtex1, uv1)-0.5)*2).rgb;
+	float4 diffuseSpecTex1 = tex2D( difftex1, uv1);
+	diffuse = lerp( diffuse, diffuseSpecTex1.rgb, blendTexVal0.r);
+	specular = lerp( specular, diffuseSpecTex1.a, blendTexVal0.r);
+	oTSnormal = lerp( oTSnormal, TSnormal1.rgb, blendTexVal0.r);
+	float2 uv2 = layerUV1.xy;
+	float3 TSnormal2  = (( tex2D( normtex2, uv2)-0.5)*2).rgb;
+	float4 diffuseSpecTex2 = tex2D( difftex2, uv2);
+	diffuse = lerp( diffuse, diffuseSpecTex2.rgb, blendTexVal0.g);
+	specular = lerp( specular, diffuseSpecTex2.a, blendTexVal0.g);
+	oTSnormal = lerp( oTSnormal, TSnormal2.rgb, blendTexVal0.g);
+	float2 uv3 = layerUV1.zw;
+	float3 TSnormal3  = (( tex2D( normtex3, uv3)-0.5)*2).rgb;
+	float4 diffuseSpecTex3 = tex2D( difftex3, uv3);
+	diffuse = lerp( diffuse, diffuseSpecTex3.rgb, blendTexVal0.b);
+	specular = lerp( specular, diffuseSpecTex3.a, blendTexVal0.b);
+	oTSnormal = lerp( oTSnormal, TSnormal3.rgb, blendTexVal0.b);
+	float2 uv4 = layerUV2.xy;
+	float3 TSnormal4  = (( tex2D( normtex4, uv4)-0.5)*2).rgb;
+	float4 diffuseSpecTex4 = tex2D( difftex4, uv4);
+	diffuse = lerp( diffuse, diffuseSpecTex4.rgb, blendTexVal0.a);
+	specular = lerp( specular, diffuseSpecTex4.a, blendTexVal0.a);
+	oTSnormal = lerp( oTSnormal, TSnormal4.rgb, blendTexVal0.a);
+	float2 uv5 = layerUV2.zw;
+	float3 TSnormal5  = (( tex2D( normtex5, uv5)-0.5)*2).rgb;
+	float4 diffuseSpecTex5 = tex2D( difftex5, uv5);
+	diffuse = lerp( diffuse, diffuseSpecTex5.rgb, blendTexVal1.r);
+	specular = lerp( specular, diffuseSpecTex5.a, blendTexVal1.r);
+	oTSnormal = lerp( oTSnormal, TSnormal5.rgb, blendTexVal1.r);
+	PS_OUTPUT Out;
+	Out.Rtt0.rgb = diffuse.rgb;
+	Out.Rtt0.a = specular;
+	Out.Rtt1.rgb = TSnormal1;
+	Out.Rtt1.a = 1;
+	Out.Rtt2 = PosInWorld;
+	Out.Rtt3 = float4( 1, 1, 1, 1);
+	return Out
+;}
+
+23:45:12: D3D9 : Loading 2D Texture, image name : 'desert_5_diffusespecular.dds' with 5 mip map levels
+23:45:12: D3D9 : Loading 2D Texture, image name : 'desert_5_normalheight.dds' with 5 mip map levels
+23:45:12: *************** Memory Usage before create boxes255mb
+23:45:12: Mesh: Loading crate.mesh.
+23:45:12: WARNING: crate.mesh is an older format ([MeshSerializer_v1.40]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+23:45:12: Can't assign material BarrelTexture to SubEntity of StaticBox because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:12: Texture: Crate.tga: Loading 1 faces(PF_A8R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,512x512x1.
+23:45:12: Texture: Crate_NRM.tga: Loading 1 faces(PF_A8R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+23:45:12: Can't assign material BarrelTexture to SubEntity of Box6 because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:12: Can't assign material BarrelTexture to SubEntity of Box7 because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:12: Can't assign material BarrelTexture to SubEntity of Box8 because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:12: Can't assign material BarrelTexture to SubEntity of Box9 because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:12: Can't assign material BarrelTexture to SubEntity of Box10 because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:12: Can't assign material BarrelTexture to SubEntity of Box11 because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:12: Can't assign material BarrelTexture to SubEntity of Box12 because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:12: Can't assign material BarrelTexture to SubEntity of Box13 because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:12: Can't assign material BarrelTexture to SubEntity of Box14 because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:12: Can't assign material BarrelTexture to SubEntity of Box15 because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:12: Can't assign material BarrelTexture to SubEntity of Box16 because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:12: Can't assign material BarrelTexture to SubEntity of Box17 because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:12: Can't assign material BarrelTexture to SubEntity of Box18 because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:12: *************** Memory Usage after create boxes256mb
+23:45:12: Skeleton: Loading skeleton.skeleton
+23:45:12: Skeleton: Loading idle.skeleton
+23:45:12: Skeleton: Loading walk_forward.skeleton
+23:45:12: Skeleton: Loading walk_left.skeleton
+23:45:12: Skeleton: Loading walk_right.skeleton
+23:45:12: Skeleton: Loading walk_backward.skeleton
+23:45:13: Skeleton: Loading walk_fast_forward.skeleton
+23:45:13: Skeleton: Loading one_hand_attack_left.skeleton
+23:45:13: Skeleton: Loading handtohand_hook.skeleton
+23:45:13: Skeleton: Loading one_hand_idle.skeleton
+23:45:13: Skeleton: Loading one_hand_block.skeleton
+23:45:13: Skeleton: Loading one_hand_forward.skeleton
+23:45:13: Mesh: Loading Guard.mesh.
+23:45:13: WARNING: Guard.mesh is an older format ([MeshSerializer_v1.41]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+23:45:13: D3D9 : Loading 2D Texture, image name : 'cuirass.dds' with 5 mip map levels
+23:45:13: D3D9 : Loading 2D Texture, image name : 'cuirass_n.dds' with 5 mip map levels
+23:45:13: D3D9 : Loading 2D Texture, image name : 'boots.dds' with 5 mip map levels
+23:45:13: D3D9 : Loading 2D Texture, image name : 'boots_n.dds' with 5 mip map levels
+23:45:13: D3D9 : Loading 2D Texture, image name : 'gauntlet.dds' with 5 mip map levels
+23:45:13: D3D9 : Loading 2D Texture, image name : 'gauntlet_n.dds' with 5 mip map levels
+23:45:13: D3D9 : Loading 2D Texture, image name : 'greaves.dds' with 5 mip map levels
+23:45:13: D3D9 : Loading 2D Texture, image name : 'greaves_n.dds' with 5 mip map levels
+23:45:13: Mesh: Loading head.mesh.
+23:45:13: WARNING: head.mesh is an older format ([MeshSerializer_v1.41]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+23:45:13: D3D9 : Loading 2D Texture, image name : 'headhuman.dds' with 5 mip map levels
+23:45:13: D3D9 : Loading 2D Texture, image name : 'headhuman_n.dds' with 5 mip map levels
+23:45:13: Mesh: Loading EyeLeftHuman.mesh.
+23:45:13: WARNING: EyeLeftHuman.mesh is an older format ([MeshSerializer_v1.41]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+23:45:13: Can't assign material 08-Default to SubEntity of leftEye because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:13: Can't assign material humaneyel to SubEntity of leftEye because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:13: Mesh: Loading EyeRightHuman.mesh.
+23:45:13: WARNING: EyeRightHuman.mesh is an older format ([MeshSerializer_v1.41]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+23:45:13: Can't assign material 08-Default to SubEntity of rigthEye because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:13: Can't assign material humaneyer to SubEntity of rigthEye because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:13: Mesh: Loading ears.mesh.
+23:45:13: WARNING: ears.mesh is an older format ([MeshSerializer_v1.41]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+23:45:13: D3D9 : Loading 2D Texture, image name : 'earshuman.dds' with 5 mip map levels
+23:45:13: D3D9 : Loading 2D Texture, image name : 'earshuman_n.dds' with 5 mip map levels
+23:45:13: Can't assign material 08-Default to SubEntity of commoner_1leftEye because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:13: Can't assign material humaneyel to SubEntity of commoner_1leftEye because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:13: Can't assign material 08-Default to SubEntity of commoner_1rigthEye because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:13: Can't assign material humaneyer to SubEntity of commoner_1rigthEye because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:13: commoner_1::Created
+23:45:13: Can't assign material 08-Default to SubEntity of commoner_2leftEye because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:13: Can't assign material humaneyel to SubEntity of commoner_2leftEye because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:13: Can't assign material 08-Default to SubEntity of commoner_2rigthEye because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:13: Can't assign material humaneyer to SubEntity of commoner_2rigthEye because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:13: commoner_2::Created
+23:45:13: Can't assign material 08-Default to SubEntity of commoner_3leftEye because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:13: Can't assign material humaneyel to SubEntity of commoner_3leftEye because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:13: Can't assign material 08-Default to SubEntity of commoner_3rigthEye because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:13: Can't assign material humaneyer to SubEntity of commoner_3rigthEye because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:13: commoner_3::Created
+23:45:13: Can't assign material 08-Default to SubEntity of commoner_4leftEye because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:13: Can't assign material humaneyel to SubEntity of commoner_4leftEye because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:13: Can't assign material 08-Default to SubEntity of commoner_4rigthEye because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:13: Can't assign material humaneyer to SubEntity of commoner_4rigthEye because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:13: commoner_4::Created
+23:45:13: Can't assign material 08-Default to SubEntity of commoner_5leftEye because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:13: Can't assign material humaneyel to SubEntity of commoner_5leftEye because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:13: Can't assign material 08-Default to SubEntity of commoner_5rigthEye because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:13: Can't assign material humaneyer to SubEntity of commoner_5rigthEye because this Material does not exist. Have you forgotten to define it in a .material script?
+23:45:13: commoner_5::Created
+23:45:13: Mesh: Loading wolf.mesh.
+23:45:14: Texture: wolf.tga: Loading 1 faces(PF_R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+23:45:14: Texture: wolf_n.tga: Loading 1 faces(PF_R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+23:45:14: Wolf_1::Created
+23:45:14: Wolf_2::Created
+23:45:14: Wolf_3::Created
+23:45:14: *************** Memory Usage after create player and npc266mb
+23:45:14: [ItemLoader] Parsing Item file
+23:45:14: 1
+23:45:14: apple
+23:45:14: FOOD
+23:45:14: tasty apple
+23:45:14: apple.mesh
+23:45:14: 1
+23:45:14: 10
+23:45:14: item readed
+23:45:14: 2
+23:45:14: sword
+23:45:14: MELE_1H
+23:45:14: simple sword
+23:45:14: sword.mesh
+23:45:14: 20
+23:45:14: 100
+23:45:14: item readed
+23:45:14: 3
+23:45:14: cloth
+23:45:14: ARMOUR
+23:45:14: simple cloth
+23:45:14: cloth.mesh
+23:45:14: 50
+23:45:14: 100
+23:45:14: item readed
+23:45:14: Mesh: Loading sword.mesh.
+23:45:14: WARNING: sword.mesh is an older format ([MeshSerializer_v1.30]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+23:45:14: Texture: Sword.tga: Loading 1 faces(PF_R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+23:45:14: Texture: Sword_n.tga: Loading 1 faces(PF_R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+23:45:14: commoner_1::OnTimeAction
+23:45:14: commoner_1::OnTimeAction = шарится
+23:45:14: commoner_1::GoTo
+23:45:14: From
+23:45:14: 3000 1000 -4000
+23:45:14: To
+23:45:14: 0 0 20000
+23:45:14: commoner_2::OnTimeAction
+23:45:14: commoner_2::OnTimeAction = шарится
+23:45:14: commoner_2::GoTo
+23:45:14: From
+23:45:14: 3000 1000 -5000
+23:45:14: To
+23:45:14: 0 0 20000
+23:45:14: commoner_3::OnTimeAction
+23:45:14: commoner_3::OnTimeAction = шарится
+23:45:14: commoner_3::GoTo
+23:45:14: From
+23:45:14: 3000 1000 -6000
+23:45:14: To
+23:45:14: 0 0 20000
+23:45:14: commoner_4::OnTimeAction
+23:45:14: commoner_4::OnTimeAction = шарится
+23:45:14: commoner_4::GoTo
+23:45:14: From
+23:45:14: 3400 1000 -6000
+23:45:14: To
+23:45:14: 0 0 20000
+23:45:14: commoner_5::OnTimeAction
+23:45:14: commoner_5::OnTimeAction = шарится
+23:45:14: commoner_5::GoTo
+23:45:14: From
+23:45:14: 3400 1000 -4000
+23:45:14: To
+23:45:14: 0 0 20000
+23:45:14: Wolf_1::OnTimeAction
+23:45:14: Wolf_1::OnTimeAction = шарится
+23:45:14: Wolf_1::GoTo
+23:45:14: From
+23:45:14: 3400 1000 -5000
+23:45:14: To
+23:45:14: 0 0 20000
+23:45:14: Wolf_2::OnTimeAction
+23:45:14: Wolf_2::OnTimeAction = шарится
+23:45:14: Wolf_2::GoTo
+23:45:14: From
+23:45:14: 3200 1000 -5000
+23:45:14: To
+23:45:14: 0 0 20000
+23:45:14: Wolf_3::OnTimeAction
+23:45:14: Wolf_3::OnTimeAction = шарится
+23:45:14: Wolf_3::GoTo
+23:45:14: From
+23:45:14: 3100 1000 -5000
+23:45:14: To
+23:45:14: 0 0 20000
+23:45:14: Texture: grass.png: Loading 1 faces(PF_A8R8G8B8,253x253x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,253x253x1.
+23:45:14: Texture: grass_n.png: Loading 1 faces(PF_A8R8G8B8,253x253x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,253x253x1.
+23:45:14: Texture: plant1.png: Loading 1 faces(PF_A8R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+23:45:14: Texture: plant1_n.png: Loading 1 faces(PF_A8R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+23:45:14: Texture: grass1.png: Loading 1 faces(PF_A8R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+23:45:14: Texture: grass1_n.png: Loading 1 faces(PF_A8R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+23:45:14: Texture: grass3.png: Loading 1 faces(PF_A8R8G8B8,512x256x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,512x256x1.

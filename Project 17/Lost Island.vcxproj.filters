@@ -1,0 +1,703 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\PhysX">
+      <UniqueIdentifier>{5345ecc8-893f-4e48-9fda-c950ae7d0423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PhysX\NXUStream">
+      <UniqueIdentifier>{aaa869e5-0a9a-4897-89e5-905201e79e42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\base">
+      <UniqueIdentifier>{69fcebaf-8553-4228-a0ff-4c1ec681078e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Environment Plugins">
+      <UniqueIdentifier>{905280ea-54ab-4ea3-aa0e-2b781d4c4eba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\xml">
+      <UniqueIdentifier>{a56dbcff-c222-4c6b-b86f-87fbff10e40c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Deferred Shading">
+      <UniqueIdentifier>{3a4a2757-c877-47e9-bd62-18ef943af575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Deferred Shading\OgreDS">
+      <UniqueIdentifier>{22c4f39e-f972-49c1-8012-9625a8012b2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Environment Plugins">
+      <UniqueIdentifier>{e502350f-7178-4926-8dd8-ccc7b7a3a556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PhysX">
+      <UniqueIdentifier>{2346734e-41b3-4634-8dd5-19b6ce88a01c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PhysX\NXUStream">
+      <UniqueIdentifier>{b06b1211-4900-43a6-b2a2-1013ee818f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\base">
+      <UniqueIdentifier>{59bf8c84-1e25-410d-897f-47b9f29d3eea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\objects">
+      <UniqueIdentifier>{9f8af2f5-45d2-4204-8733-29df4e817615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\xml">
+      <UniqueIdentifier>{658d5980-5d2f-421c-8811-016c21ac200d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Deferred Shading">
+      <UniqueIdentifier>{8a2e3cd8-b1be-4cce-a02b-b9b888a812a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Deferred Shading\OgreDS">
+      <UniqueIdentifier>{443a2f74-e370-4ffd-87f3-b75759eec3c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Gui">
+      <UniqueIdentifier>{c7e07dd0-7dfe-4f16-91dc-6e3956164af7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gui">
+      <UniqueIdentifier>{c5b61f0e-e696-4cfb-9e41-7b73ff0b36d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\fire">
+      <UniqueIdentifier>{2d7d5bdd-1d4a-4995-b756-68f9b1847ae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\fire">
+      <UniqueIdentifier>{9d5275b4-4239-4dd1-8bb2-fc88ecbc6fd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HydraX">
+      <UniqueIdentifier>{ee9c0aee-d7a8-4c64-b3c1-4b67c973d78a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkyX">
+      <UniqueIdentifier>{be5fc020-9f93-4d23-bd01-1bed0af8aa9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Nxu">
+      <UniqueIdentifier>{040d1af2-5c7c-4951-be26-00b19de0176c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ActionManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\debugOut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\myTarrainMaterialGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PhysX\MyCharacterController.cpp">
+      <Filter>Source Files\PhysX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PhysX\UserAllocator.cpp">
+      <Filter>Source Files\PhysX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\GameManager.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\GameState.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\InputManager.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\IntroState.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\PauseState.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\PlayState.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PGManager.cpp">
+      <Filter>Source Files\Environment Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xml\tinystr.cpp">
+      <Filter>Source Files\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xml\tinyxml.cpp">
+      <Filter>Source Files\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xml\tinyxmlerror.cpp">
+      <Filter>Source Files\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xml\tinyxmlparser.cpp">
+      <Filter>Source Files\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EngineDeferredShading.cpp">
+      <Filter>Source Files\Deferred Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AmbientLight.cpp">
+      <Filter>Source Files\Deferred Shading\OgreDS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DeferredLightCP.cpp">
+      <Filter>Source Files\Deferred Shading\OgreDS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DeferredShading.cpp">
+      <Filter>Source Files\Deferred Shading\OgreDS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DLight.cpp">
+      <Filter>Source Files\Deferred Shading\OgreDS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GBufferMaterialGenerator.cpp">
+      <Filter>Source Files\Deferred Shading\OgreDS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GBufferSchemeHandler.cpp">
+      <Filter>Source Files\Deferred Shading\OgreDS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GeomUtils.cpp">
+      <Filter>Source Files\Deferred Shading\OgreDS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LightMaterialGenerator.cpp">
+      <Filter>Source Files\Deferred Shading\OgreDS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MaterialGenerator.cpp">
+      <Filter>Source Files\Deferred Shading\OgreDS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SSAOLogic.cpp">
+      <Filter>Source Files\Deferred Shading\OgreDS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RenderInterfaceOgre3D.cpp">
+      <Filter>Source Files\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SystemInterfaceOgre3D.cpp">
+      <Filter>Source Files\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fire\OgreAreaEmitter.cpp">
+      <Filter>Source Files\fire</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fire\OgreBoxEmitter.cpp">
+      <Filter>Source Files\fire</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fire\OgreShaderParticleRenderer.cpp">
+      <Filter>Source Files\fire</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GuiManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\SkyX\AtmosphereManager.cpp">
+      <Filter>SkyX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\SkyX\CloudsManager.cpp">
+      <Filter>SkyX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\SkyX\ColorGradient.cpp">
+      <Filter>SkyX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\SkyX\GPUManager.cpp">
+      <Filter>SkyX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\SkyX\MeshManager.cpp">
+      <Filter>SkyX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\SkyX\MoonManager.cpp">
+      <Filter>SkyX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\SkyX\Prerequisites.cpp">
+      <Filter>SkyX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\SkyX\SkyX.cpp">
+      <Filter>SkyX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\SkyX\VClouds\DataManager.cpp">
+      <Filter>SkyX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\SkyX\VClouds\Ellipsoid.cpp">
+      <Filter>SkyX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\SkyX\VClouds\FastFakeRandom.cpp">
+      <Filter>SkyX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\SkyX\VClouds\GeometryBlock.cpp">
+      <Filter>SkyX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\SkyX\VClouds\GeometryManager.cpp">
+      <Filter>SkyX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\SkyX\VClouds\VClouds.cpp">
+      <Filter>SkyX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\SkyX\VCloudsManager.cpp">
+      <Filter>SkyX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\NXU\NXU_Asc2Bin.cpp">
+      <Filter>Nxu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\NXU\NXU_ColladaExport.cpp">
+      <Filter>Nxu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\NXU\NXU_ColladaImport.cpp">
+      <Filter>Nxu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\NXU\NXU_cooking.cpp">
+      <Filter>Nxu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\NXU\NXU_customcopy.cpp">
+      <Filter>Nxu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\NXU\NXU_File.cpp">
+      <Filter>Nxu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\NXU\NXU_Geometry.cpp">
+      <Filter>Nxu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\NXU\NXU_GraphicsMesh.cpp">
+      <Filter>Nxu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\NXU\NXU_helper.cpp">
+      <Filter>Nxu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\NXU\NXU_hull.cpp">
+      <Filter>Nxu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\NXU\NXU_PhysicsExport.cpp">
+      <Filter>Nxu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\NXU\NXU_PhysicsInstantiator.cpp">
+      <Filter>Nxu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\NXU\NXU_ScaledCopy.cpp">
+      <Filter>Nxu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\NXU\NXU_schema.cpp">
+      <Filter>Nxu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\NXU\NXU_SchemaStream.cpp">
+      <Filter>Nxu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\NXU\NXU_Streaming.cpp">
+      <Filter>Nxu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\NXU\NXU_string.cpp">
+      <Filter>Nxu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\NXU\NXU_tinystr.cpp">
+      <Filter>Nxu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\NXU\NXU_tinyxml.cpp">
+      <Filter>Nxu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\NXU\NXU_tinyxmlerror.cpp">
+      <Filter>Nxu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\NXU\NXU_tinyxmlparser.cpp">
+      <Filter>Nxu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\HydraX\CfgFileManager.cpp">
+      <Filter>HydraX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\HydraX\DecalsManager.cpp">
+      <Filter>HydraX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\HydraX\Enums.cpp">
+      <Filter>HydraX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\HydraX\GodRaysManager.cpp">
+      <Filter>HydraX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\HydraX\GPUNormalMapManager.cpp">
+      <Filter>HydraX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\HydraX\Help.cpp">
+      <Filter>HydraX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\HydraX\Hydrax.cpp">
+      <Filter>HydraX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\HydraX\Image.cpp">
+      <Filter>HydraX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\HydraX\MaterialManager.cpp">
+      <Filter>HydraX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\HydraX\Mesh.cpp">
+      <Filter>HydraX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\HydraX\Modules\Module.cpp">
+      <Filter>HydraX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\HydraX\Modules\ProjectedGrid\ProjectedGrid.cpp">
+      <Filter>HydraX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\HydraX\Modules\RadialGrid\RadialGrid.cpp">
+      <Filter>HydraX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\HydraX\Modules\SimpleGrid\SimpleGrid.cpp">
+      <Filter>HydraX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\HydraX\Noise\FFT\FFT.cpp">
+      <Filter>HydraX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\HydraX\Noise\Noise.cpp">
+      <Filter>HydraX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\HydraX\Noise\Perlin\Perlin.cpp">
+      <Filter>HydraX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\HydraX\Prerequisites.cpp">
+      <Filter>HydraX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\HydraX\RttManager.cpp">
+      <Filter>HydraX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Deps\HydraX\TextureManager.cpp">
+      <Filter>HydraX</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\ogre 1.8.0\ogre\Samples\DeferredShading\src\NullSchemeHandler.h">
+      <Filter>Source Files\Deferred Shading\OgreDS</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ActionManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\configAnims.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\debugOut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ExtendedCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\myTerrainMaterialGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PhysxManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgressBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\quest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RenderToTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SceneLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HydraxManager.h">
+      <Filter>Header Files\Environment Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PGManager.h">
+      <Filter>Header Files\Environment Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SkyManager.h">
+      <Filter>Header Files\Environment Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PhysX\MyCharacterController.h">
+      <Filter>Header Files\PhysX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Ragdoll.h">
+      <Filter>Header Files\PhysX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PhysX\UserAllocator.h">
+      <Filter>Header Files\PhysX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\GameManager.h">
+      <Filter>Header Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\GameState.h">
+      <Filter>Header Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\InputManager.h">
+      <Filter>Header Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\IntroState.h">
+      <Filter>Header Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\PauseState.h">
+      <Filter>Header Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\PlayState.h">
+      <Filter>Header Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AiCharacter.h">
+      <Filter>Header Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\arrow.h">
+      <Filter>Header Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BaseObj.h">
+      <Filter>Header Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Items.h">
+      <Filter>Header Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Player.h">
+      <Filter>Header Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TerrainManager.h">
+      <Filter>Header Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\xml\tinystr.h">
+      <Filter>Header Files\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="include\xml\tinyxml.h">
+      <Filter>Header Files\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EngineDeferredShading.h">
+      <Filter>Header Files\Deferred Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AmbientLight.h">
+      <Filter>Header Files\Deferred Shading\OgreDS</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DeferredLightCP.h">
+      <Filter>Header Files\Deferred Shading\OgreDS</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DeferredShading.h">
+      <Filter>Header Files\Deferred Shading\OgreDS</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DLight.h">
+      <Filter>Header Files\Deferred Shading\OgreDS</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GBufferMaterialGenerator.h">
+      <Filter>Header Files\Deferred Shading\OgreDS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ogre 1.8.0\ogre\Samples\DeferredShading\include\GBufferSchemeHandler.h">
+      <Filter>Header Files\Deferred Shading\OgreDS</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LightMaterialGenerator.h">
+      <Filter>Header Files\Deferred Shading\OgreDS</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MaterialGenerator.h">
+      <Filter>Header Files\Deferred Shading\OgreDS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ogre 1.8.0\ogre\Samples\DeferredShading\include\NullSchemeHandler.h">
+      <Filter>Header Files\Deferred Shading\OgreDS</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SSAOLogic.h">
+      <Filter>Header Files\Deferred Shading\OgreDS</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\SharedData.h">
+      <Filter>Header Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RenderInterfaceOgre3D.h">
+      <Filter>Header Files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SystemInterfaceOgre3D.h">
+      <Filter>Header Files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GuiManager.h">
+      <Filter>Header Files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Creature.h">
+      <Filter>Header Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fire\OgreAreaEmitter.h">
+      <Filter>Header Files\fire</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fire\OgreBoxEmitter.h">
+      <Filter>Header Files\fire</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fire\OgreBoxEmitterFactory.h">
+      <Filter>Header Files\fire</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fire\OgreParticleCustomParam.h">
+      <Filter>Header Files\fire</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fire\OgreShaderParticleRenderer.h">
+      <Filter>Header Files\fire</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GuiInventory.h">
+      <Filter>Header Files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WoodyListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\SkyX\AtmosphereManager.h">
+      <Filter>SkyX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\SkyX\CloudsManager.h">
+      <Filter>SkyX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\SkyX\ColorGradient.h">
+      <Filter>SkyX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\SkyX\GPUManager.h">
+      <Filter>SkyX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\SkyX\MeshManager.h">
+      <Filter>SkyX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\SkyX\MoonManager.h">
+      <Filter>SkyX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\SkyX\Prerequisites.h">
+      <Filter>SkyX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\SkyX\SkyX.h">
+      <Filter>SkyX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\SkyX\VClouds\DataManager.h">
+      <Filter>SkyX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\SkyX\VClouds\Ellipsoid.h">
+      <Filter>SkyX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\SkyX\VClouds\FastFakeRandom.h">
+      <Filter>SkyX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\SkyX\VClouds\GeometryBlock.h">
+      <Filter>SkyX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\SkyX\VClouds\GeometryManager.h">
+      <Filter>SkyX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\SkyX\VClouds\VClouds.h">
+      <Filter>SkyX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\SkyX\VCloudsManager.h">
+      <Filter>SkyX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\NXU\NXU_Asc2Bin.h">
+      <Filter>Nxu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\NXU\NXU_ColladaExport.h">
+      <Filter>Nxu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\NXU\NXU_ColladaImport.h">
+      <Filter>Nxu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\NXU\NXU_cooking.h">
+      <Filter>Nxu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\NXU\NXU_customcopy.h">
+      <Filter>Nxu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\NXU\NXU_File.h">
+      <Filter>Nxu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\NXU\NXU_Geometry.h">
+      <Filter>Nxu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\NXU\NXU_GraphicsMesh.h">
+      <Filter>Nxu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\NXU\NXU_helper.h">
+      <Filter>Nxu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\NXU\NXU_hull.h">
+      <Filter>Nxu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\NXU\NXU_PhysicsExport.h">
+      <Filter>Nxu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\NXU\NXU_PhysicsInstantiator.h">
+      <Filter>Nxu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\NXU\NXU_ScaledCopy.h">
+      <Filter>Nxu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\NXU\NXU_schema.h">
+      <Filter>Nxu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\NXU\NXU_SchemaStream.h">
+      <Filter>Nxu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\NXU\NXU_SchemaTypes.h">
+      <Filter>Nxu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\NXU\NXU_Streaming.h">
+      <Filter>Nxu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\NXU\NXU_string.h">
+      <Filter>Nxu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\NXU\NXU_tinystr.h">
+      <Filter>Nxu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\NXU\NXU_tinyxml.h">
+      <Filter>Nxu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\HydraX\CfgFileManager.h">
+      <Filter>HydraX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\HydraX\DecalsManager.h">
+      <Filter>HydraX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\HydraX\Enums.h">
+      <Filter>HydraX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\HydraX\GodRaysManager.h">
+      <Filter>HydraX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\HydraX\GPUNormalMapManager.h">
+      <Filter>HydraX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\HydraX\Help.h">
+      <Filter>HydraX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\HydraX\Hydrax.h">
+      <Filter>HydraX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\HydraX\Image.h">
+      <Filter>HydraX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\HydraX\MaterialManager.h">
+      <Filter>HydraX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\HydraX\Mesh.h">
+      <Filter>HydraX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\HydraX\Modules\Module.h">
+      <Filter>HydraX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\HydraX\Modules\ProjectedGrid\ProjectedGrid.h">
+      <Filter>HydraX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\HydraX\Modules\RadialGrid\RadialGrid.h">
+      <Filter>HydraX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\HydraX\Modules\SimpleGrid\SimpleGrid.h">
+      <Filter>HydraX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\HydraX\Noise\FFT\FFT.h">
+      <Filter>HydraX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\HydraX\Noise\Noise.h">
+      <Filter>HydraX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\HydraX\Noise\Perlin\Perlin.h">
+      <Filter>HydraX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\HydraX\Prerequisites.h">
+      <Filter>HydraX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\HydraX\RttManager.h">
+      <Filter>HydraX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Deps\HydraX\TextureManager.h">
+      <Filter>HydraX</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Lost Island.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ogre.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ogrelogo.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Deps\NXU\TheNxuStreamFAQ.htm">
+      <Filter>Nxu</Filter>
+    </None>
+  </ItemGroup>
+</Project>
